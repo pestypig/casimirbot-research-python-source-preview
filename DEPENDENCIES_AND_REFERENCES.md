@@ -1,6 +1,6 @@
 # Dependency and upstream-reference review — private draft
 
-This note covers the exact 345-file Python selection in `SOURCE_SELECTION.json`. It is a bounded static review, not a complete dependency lock, copied-code clearance, safe-run instruction, or scientific result. No external package, paper, dataset, observation, credential, or fetched upstream source is bundled.
+This note covers the exact 359-file Python union in `SOURCE_SELECTION.json`, formed from the retained 345-file and 14-file inventories. It is a bounded static review, not a complete dependency lock, copied-code clearance, safe-run instruction, or scientific result. No external package, paper, dataset, observation, credential, or fetched upstream source is bundled.
 
 ## Python and data dependencies
 
@@ -12,6 +12,6 @@ Selected imports include NumPy, SciPy, mpmath, SymPy, h5py, Matplotlib, Astropy,
 
 ## URLs and provenance limits
 
-A bounded sweep found 104 `http(s)`-shaped strings, largely paper links to arXiv, plus GitHub/API, NIST, Zenodo, DataCite, particle-data, and other research references. No parsed URL included userinfo or a query-parameter name containing `key`, `token`, `secret`, `password`, or `auth`. This does not inspect dynamic URLs, other credential forms, remote content, or the rights to referenced material. A word-boundary text search found no selected file with an explicit copyright, SPDX, adapted-from, ported-from, or copied-from cue; absence is not proof of independent authorship.
+A bounded sweep found 108 `http(s)`-shaped strings in 72 files, largely paper links to arXiv, plus GitHub/API, NIST, Zenodo, DataCite, particle-data, and other research references. No parsed URL included userinfo or a query-parameter name containing `key`, `token`, `secret`, `password`, or `auth`. This does not inspect dynamic URLs, other credential forms, remote content, or the rights to referenced material. A word-boundary text search found no selected file with an explicit copyright, SPDX, adapted-from, ported-from, or copied-from cue; absence is not proof of independent authorship.
 
-Twenty-four parent research-code files remain held, including nine QCDark2/WIMpy-like source paths and a C++ provenance case. This selected source has no grant to redistribute those held files. Any first-party MIT license, third-party notices, public exposure, and scientific claim must be decided against the exact final tree after owner rights and content review. Publishing source alone would not execute or advance an NHM2 proof gate, establish physical viability, or authenticate research data.
+The original 24-file hold is now split: 14 parseable Python files were recovered after their email-shaped `@` matches proved to be matrix operators; the ten remaining files are byte-identical archives from QCDark2 (CC0), WIMpy (MIT with Bradley J. Kavanagh's notice), and nuflux (LGPL v3). Those ten are excluded from this first-party candidate and should be referenced through their pinned upstream projects. Any first-party MIT license, third-party notices, public exposure, and scientific claim must be decided against the exact final tree after owner rights and content review. Publishing source alone would not execute or advance an NHM2 proof gate, establish physical viability, or authenticate research data.

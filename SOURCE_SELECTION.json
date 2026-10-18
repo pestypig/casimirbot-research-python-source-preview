@@ -1,161 +1,22 @@
 {
-  "schema": "casimirbot.docs_research_code_filtered_source_selection.v1",
-  "status": "private-technical-selection-rights-pending",
+  "schema": "casimirbot.docs_research_first_party_candidate_359.v1",
+  "status": "private-technical-review-unlicensed",
   "sourceCommit": "bcb274d4f290e0da92534c3b9db3871a79e2759b",
-  "parentInventory": {
-    "path": "docs/evidence/github-source-review-2026-10-17/docs-research-code-remainder-source-selection.json",
-    "sha256": "c26bfbdfa416080991cd2b034771decf02afbdbc9161c4491ad8e8af096ce4c5"
-  },
-  "selectionRule": "research code excluding selected cloud, account, home-path, email-like, credential, token-digest, PEM, license/copyright, or upstream-C++ provenance patterns; absence is not clearance; nine QCDark2/WIMpy-like source paths held for upstream provenance review",
-  "sourceFiles": 345,
-  "sourceBytes": 1147519,
-  "heldFiles": 24,
-  "heldPaths": [
+  "componentSelections": [
     {
-      "path": "docs/research/casimir-dp-axion-coupled-flow-2026-09-07.py",
-      "reasons": [
-        "email_like"
-      ]
+      "file": "SOURCE_SELECTION_345.json",
+      "sha256": "a59cff9248e480369b4c5cec0a5a7105c5d74bc532609d45cef6f02429fdc347",
+      "sourceFiles": 345
     },
     {
-      "path": "docs/research/casimir-dp-axion-ew-higgs-running-2026-09-07.py",
-      "reasons": [
-        "email_like"
-      ]
-    },
-    {
-      "path": "docs/research/casimir-dp-axion-finite-scalar-triangle-2026-09-07.py",
-      "reasons": [
-        "email_like"
-      ]
-    },
-    {
-      "path": "docs/research/casimir-dp-axion-scalar-triangle-2026-09-07.py",
-      "reasons": [
-        "email_like"
-      ]
-    },
-    {
-      "path": "docs/research/casimir-dp-axion-top-self-running-2026-09-07.py",
-      "reasons": [
-        "email_like"
-      ]
-    },
-    {
-      "path": "docs/research/casimir-dp-axion-weak-mixing-screen-2026-09-07.py",
-      "reasons": [
-        "email_like"
-      ]
-    },
-    {
-      "path": "docs/research/casimir-dp-axion-wilson-beta-audit-2026-09-07.py",
-      "reasons": [
-        "email_like"
-      ]
-    },
-    {
-      "path": "docs/research/casimir-dp-dark-scalar-selection-2026-09-07.py",
-      "reasons": [
-        "email_like"
-      ]
-    },
-    {
-      "path": "docs/research/casimir-dp-diamond-density-rate-2026-09-06.py",
-      "reasons": [
-        "email_like"
-      ]
-    },
-    {
-      "path": "docs/research/casimir-dp-diamond-response-2026-09-06/qcdark2__dark_matter_rates.py",
-      "reasons": [
-        "upstream_qcdark2_or_wimpy_provenance"
-      ]
-    },
-    {
-      "path": "docs/research/casimir-dp-diamond-spin-bubble-2026-09-06.py",
-      "reasons": [
-        "email_like"
-      ]
-    },
-    {
-      "path": "docs/research/casimir-dp-diamond-spin-response-2026-09-06/__main__.py",
-      "reasons": [
-        "upstream_qcdark2_or_wimpy_provenance"
-      ]
-    },
-    {
-      "path": "docs/research/casimir-dp-diamond-spin-response-2026-09-06/binning.py",
-      "reasons": [
-        "upstream_qcdark2_or_wimpy_provenance"
-      ]
-    },
-    {
-      "path": "docs/research/casimir-dp-diamond-spin-response-2026-09-06/dielectric_functions.py",
-      "reasons": [
-        "upstream_qcdark2_or_wimpy_provenance"
-      ]
-    },
-    {
-      "path": "docs/research/casimir-dp-diamond-spin-response-2026-09-06/epsilon_routines.py",
-      "reasons": [
-        "upstream_qcdark2_or_wimpy_provenance"
-      ]
-    },
-    {
-      "path": "docs/research/casimir-dp-diamond-spin-response-2026-09-06/epsilon_utils.py",
-      "reasons": [
-        "upstream_qcdark2_or_wimpy_provenance"
-      ]
-    },
-    {
-      "path": "docs/research/casimir-dp-diamond-spin-response-2026-09-06/routines.py",
-      "reasons": [
-        "upstream_qcdark2_or_wimpy_provenance"
-      ]
-    },
-    {
-      "path": "docs/research/casimir-dp-elastic-mass-mixing-2026-09-07.py",
-      "reasons": [
-        "email_like"
-      ]
-    },
-    {
-      "path": "docs/research/casimir-dp-exothermic-mixed-targets-2026-09-07.py",
-      "reasons": [
-        "email_like"
-      ]
-    },
-    {
-      "path": "docs/research/casimir-dp-inelastic-local-audit-2026-09-06.py",
-      "reasons": [
-        "email_like"
-      ]
-    },
-    {
-      "path": "docs/research/casimir-dp-neutrino-dispersive-basis-2026-09-07.py",
-      "reasons": [
-        "email_like"
-      ]
-    },
-    {
-      "path": "docs/research/casimir-dp-neutrino-highflux-intake-2026-09-07/SplineFlux2.cpp",
-      "reasons": [
-        "upstream_cpp_provenance"
-      ]
-    },
-    {
-      "path": "docs/research/casimir-dp-spin-response-intake-2026-09-06/WIMpy__WS1.py",
-      "reasons": [
-        "upstream_qcdark2_or_wimpy_provenance"
-      ]
-    },
-    {
-      "path": "docs/research/casimir-dp-spin-response-intake-2026-09-06/WIMpy__WS2.py",
-      "reasons": [
-        "upstream_qcdark2_or_wimpy_provenance"
-      ]
+      "file": "SOURCE_SELECTION_14.json",
+      "sha256": "610a4971490865890158adb826d3df5951c1c33a6313f279620173a25c949584",
+      "sourceFiles": 14
     }
   ],
+  "selectionRule": "Union of 345 filtered research Python paths and 14 matrix-operator false-positive paths; excludes ten exact upstream QCDark2, WIMpy, and nuflux archives. This is a private technical candidate, not an authorship or MIT clearance.",
+  "sourceFiles": 359,
+  "sourceBytes": 1191781,
   "files": [
     {
       "path": "docs/research/casimir-dp-absorption-fermi-kernel-2026-09-07.py",
@@ -260,6 +121,12 @@
       "gitBlob": "4abde0a724c8db1545814b8c0c38ed1bbed18e08"
     },
     {
+      "path": "docs/research/casimir-dp-axion-coupled-flow-2026-09-07.py",
+      "sha256": "4ffd5264b811f086dda1cf609e78b39e33817a8a2cd919fc7df66d1a559cb5da",
+      "bytes": 3275,
+      "gitBlob": "dfb7b03d4756c61755eee743efa4d46b8a577ba9"
+    },
+    {
       "path": "docs/research/casimir-dp-axion-coupling-flow-scan-2026-09-07.py",
       "sha256": "243b1af76402b3a3f54cbd8318710bd8bf8fb721e4096f0da461121c04282561",
       "bytes": 3522,
@@ -290,6 +157,12 @@
       "gitBlob": "3f826a2a09eac5de3cc53fc9403fb2cacc42eca2"
     },
     {
+      "path": "docs/research/casimir-dp-axion-ew-higgs-running-2026-09-07.py",
+      "sha256": "e007250c3341497c93af13d1f7b2f078cfaadb2c51c9a2f886fdc17129ee585d",
+      "bytes": 3198,
+      "gitBlob": "30df662548cfa2fc1f0f41237c50ba04335a4ae5"
+    },
+    {
       "path": "docs/research/casimir-dp-axion-family-gluon-momentum-2026-09-07.py",
       "sha256": "e5436831ee960d20200c3a246a9bf56d9c187b21f6be11767da27c1280e816dc",
       "bytes": 2668,
@@ -318,6 +191,12 @@
       "sha256": "977511eb36db648b6125d1792ac17fbbaf0ef02fb57dc6d40e209ad7781a7ba5",
       "bytes": 2109,
       "gitBlob": "f180580f9a181c86a6ad99ad585527230df98f0a"
+    },
+    {
+      "path": "docs/research/casimir-dp-axion-finite-scalar-triangle-2026-09-07.py",
+      "sha256": "4da26befeb816dd9bf4066da5ea3de4d8aa0ae0c1c3327388c44c25123963751",
+      "bytes": 2921,
+      "gitBlob": "32147714b7ed6588f97c4589e99081ac7db3c51a"
     },
     {
       "path": "docs/research/casimir-dp-axion-flag24-input-ledger-2026-09-07.py",
@@ -524,10 +403,22 @@
       "gitBlob": "9e991b697cc7d1ccff04838e97d7d0b664a98b51"
     },
     {
+      "path": "docs/research/casimir-dp-axion-scalar-triangle-2026-09-07.py",
+      "sha256": "236a8f75ca69e846b83a7a64674cd8ed292b6d8c3de23af0ca9732286e7b53ae",
+      "bytes": 2746,
+      "gitBlob": "1944f48bba00746a4434be0b70524f7a86d38d20"
+    },
+    {
       "path": "docs/research/casimir-dp-axion-thermal-closure-2026-09-07.py",
       "sha256": "b0e47ee0045baecd46d08472aa9a3924df2bf6e022af2e2a131086be8d617271",
       "bytes": 2821,
       "gitBlob": "9e58390d3bea874801244990df7cea837b6f26e1"
+    },
+    {
+      "path": "docs/research/casimir-dp-axion-top-self-running-2026-09-07.py",
+      "sha256": "c948aa033e8c49df5a06556b0c6597012f183fe26faa817f7165a68d4141c8de",
+      "bytes": 2685,
+      "gitBlob": "acc5f7834a37ac38a4b153227dfa7eb5559776dc"
     },
     {
       "path": "docs/research/casimir-dp-axion-tree-companions-2026-09-07.py",
@@ -570,6 +461,18 @@
       "sha256": "1ffe60c11fd453d45eb7c1b86d35f2af7a9dc74c87df9f8e7a31e0959c4f1f57",
       "bytes": 1929,
       "gitBlob": "c20aa1ba08e807cf0d237a75495bde60aa3b71f8"
+    },
+    {
+      "path": "docs/research/casimir-dp-axion-weak-mixing-screen-2026-09-07.py",
+      "sha256": "52892064ff58d4892bd21242cac2a1c78e1a39603e8444b331dba4271928e888",
+      "bytes": 2629,
+      "gitBlob": "f1d4cc9ef4ca4c19474e9b721997eb9d5c86ffb8"
+    },
+    {
+      "path": "docs/research/casimir-dp-axion-wilson-beta-audit-2026-09-07.py",
+      "sha256": "53fbaa60f2df98415d10614ae447d7ab5a3800494f41890d34260ac02c65f4a6",
+      "bytes": 2543,
+      "gitBlob": "cc2ddd494485692884f73cbfb78bed9d20c6a33c"
     },
     {
       "path": "docs/research/casimir-dp-baryonic-mixing-benchmark-2026-09-07.py",
@@ -836,6 +739,12 @@
       "gitBlob": "7b0cbb074f2c65f49d99c6ca50622891a4d88fd8"
     },
     {
+      "path": "docs/research/casimir-dp-dark-scalar-selection-2026-09-07.py",
+      "sha256": "b9f24586e46935e6178304b3ce6916114976528012e770feefbbb5d5459d8aa7",
+      "bytes": 1945,
+      "gitBlob": "70f1096ab51908816b5995fa883fdb515c3bb0a7"
+    },
+    {
       "path": "docs/research/casimir-dp-dark-scalar-sphere-2026-09-07.py",
       "sha256": "1c5bed0ef605d558f7395fadb3122304dc2b79637c6b6d07e8ccef5166ac5028",
       "bytes": 2465,
@@ -866,6 +775,12 @@
       "gitBlob": "54f1681be779629d65e2a2586da9a4c3d9d804d4"
     },
     {
+      "path": "docs/research/casimir-dp-diamond-density-rate-2026-09-06.py",
+      "sha256": "3515fac0f507d5614f94c2790d6ff711a2c80cd19359a17738e2e34434683256",
+      "bytes": 4474,
+      "gitBlob": "a03c8932e36d9056321f654f5dd2db291d73db69"
+    },
+    {
       "path": "docs/research/casimir-dp-diamond-density-sumrule-2026-09-06.py",
       "sha256": "3f55c0b49014cbe48ea487f97251d8901438e7ed8c4e606375007ad50428b741",
       "bytes": 2847,
@@ -882,6 +797,18 @@
       "sha256": "8b90879c3d30e37ebec753190c9ef66309150b6466b5686fb7b552afbdee7cde",
       "bytes": 3058,
       "gitBlob": "556d99e12cd843f43f7de5bc3e858750ada97203"
+    },
+    {
+      "path": "docs/research/casimir-dp-diamond-spin-bubble-2026-09-06.py",
+      "sha256": "7f796f6d7e06708a36fcc18019c627f925440e09fde3eb9ac6e576c6dbe78c20",
+      "bytes": 2892,
+      "gitBlob": "4d0753089067a947637117ab653f5b2de9db77d1"
+    },
+    {
+      "path": "docs/research/casimir-dp-elastic-mass-mixing-2026-09-07.py",
+      "sha256": "d7bb8f5e24f798ac03b4ebec31a00d2740f5a56137f2b09336d79bbb5895607d",
+      "bytes": 1751,
+      "gitBlob": "044295371a10158c6a5c7e87dc955907265f4ac2"
     },
     {
       "path": "docs/research/casimir-dp-electron-acoustic-contact-2026-09-07.py",
@@ -1050,6 +977,12 @@
       "sha256": "4542529b05d392163ace9f9fbe99f24ac185b37991e35f6b74c4c696c4826409",
       "bytes": 1581,
       "gitBlob": "7a54f9fe2da1962242a673c40f26a299e60e1fd5"
+    },
+    {
+      "path": "docs/research/casimir-dp-exothermic-mixed-targets-2026-09-07.py",
+      "sha256": "c67de1e0f2cf64e1952c6df6cfdd270e07f21e7febb7a702d412a21c564ab3ce",
+      "bytes": 3151,
+      "gitBlob": "567d05cf4961a36ccd9ceae7de75752bfa8e2278"
     },
     {
       "path": "docs/research/casimir-dp-exothermic-neutrino-survival-2026-09-07.py",
@@ -1250,6 +1183,12 @@
       "gitBlob": "bcc305d799575af98024db44f36d1b82a94a342a"
     },
     {
+      "path": "docs/research/casimir-dp-inelastic-local-audit-2026-09-06.py",
+      "sha256": "2f0c79f132a19684f317a57523012c50fc233e51b8654521b7a8bb340b0005d0",
+      "bytes": 5154,
+      "gitBlob": "6d9374adb97f1d200e96f3e791ce74772531e835"
+    },
+    {
       "path": "docs/research/casimir-dp-l10-halo-2026-09-06.py",
       "sha256": "bc09a637a22c4bbc1cb7ec0acbe6c884b6021851e4dc451347c19e1c369788a3",
       "bytes": 5490,
@@ -1398,6 +1337,12 @@
       "sha256": "4a4709332a53e58ded508f61f04a75d31c32662d4ecbbdb3bbdb2fb123a47484",
       "bytes": 1989,
       "gitBlob": "7fdfd8f991904f1ca9ef5b20ba1f4e4a57f96897"
+    },
+    {
+      "path": "docs/research/casimir-dp-neutrino-dispersive-basis-2026-09-07.py",
+      "sha256": "cd0b58743922224237be444ed8bf20040d881448210d917d0d6d04270613398f",
+      "bytes": 4898,
+      "gitBlob": "19e1b670247802d81902c685adba1c04c3e90524"
     },
     {
       "path": "docs/research/casimir-dp-neutrino-dispersive-intake-2026-09-07.py",
