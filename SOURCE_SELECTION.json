@@ -1,0 +1,2231 @@
+{
+  "schema": "casimirbot.docs_research_code_filtered_source_selection.v1",
+  "status": "private-technical-selection-rights-pending",
+  "sourceCommit": "bcb274d4f290e0da92534c3b9db3871a79e2759b",
+  "parentInventory": {
+    "path": "docs/evidence/github-source-review-2026-10-17/docs-research-code-remainder-source-selection.json",
+    "sha256": "c26bfbdfa416080991cd2b034771decf02afbdbc9161c4491ad8e8af096ce4c5"
+  },
+  "selectionRule": "research code excluding selected cloud, account, home-path, email-like, credential, token-digest, PEM, license/copyright, or upstream-C++ provenance patterns; absence is not clearance; nine QCDark2/WIMpy-like source paths held for upstream provenance review",
+  "sourceFiles": 345,
+  "sourceBytes": 1147519,
+  "heldFiles": 24,
+  "heldPaths": [
+    {
+      "path": "docs/research/casimir-dp-axion-coupled-flow-2026-09-07.py",
+      "reasons": [
+        "email_like"
+      ]
+    },
+    {
+      "path": "docs/research/casimir-dp-axion-ew-higgs-running-2026-09-07.py",
+      "reasons": [
+        "email_like"
+      ]
+    },
+    {
+      "path": "docs/research/casimir-dp-axion-finite-scalar-triangle-2026-09-07.py",
+      "reasons": [
+        "email_like"
+      ]
+    },
+    {
+      "path": "docs/research/casimir-dp-axion-scalar-triangle-2026-09-07.py",
+      "reasons": [
+        "email_like"
+      ]
+    },
+    {
+      "path": "docs/research/casimir-dp-axion-top-self-running-2026-09-07.py",
+      "reasons": [
+        "email_like"
+      ]
+    },
+    {
+      "path": "docs/research/casimir-dp-axion-weak-mixing-screen-2026-09-07.py",
+      "reasons": [
+        "email_like"
+      ]
+    },
+    {
+      "path": "docs/research/casimir-dp-axion-wilson-beta-audit-2026-09-07.py",
+      "reasons": [
+        "email_like"
+      ]
+    },
+    {
+      "path": "docs/research/casimir-dp-dark-scalar-selection-2026-09-07.py",
+      "reasons": [
+        "email_like"
+      ]
+    },
+    {
+      "path": "docs/research/casimir-dp-diamond-density-rate-2026-09-06.py",
+      "reasons": [
+        "email_like"
+      ]
+    },
+    {
+      "path": "docs/research/casimir-dp-diamond-response-2026-09-06/qcdark2__dark_matter_rates.py",
+      "reasons": [
+        "upstream_qcdark2_or_wimpy_provenance"
+      ]
+    },
+    {
+      "path": "docs/research/casimir-dp-diamond-spin-bubble-2026-09-06.py",
+      "reasons": [
+        "email_like"
+      ]
+    },
+    {
+      "path": "docs/research/casimir-dp-diamond-spin-response-2026-09-06/__main__.py",
+      "reasons": [
+        "upstream_qcdark2_or_wimpy_provenance"
+      ]
+    },
+    {
+      "path": "docs/research/casimir-dp-diamond-spin-response-2026-09-06/binning.py",
+      "reasons": [
+        "upstream_qcdark2_or_wimpy_provenance"
+      ]
+    },
+    {
+      "path": "docs/research/casimir-dp-diamond-spin-response-2026-09-06/dielectric_functions.py",
+      "reasons": [
+        "upstream_qcdark2_or_wimpy_provenance"
+      ]
+    },
+    {
+      "path": "docs/research/casimir-dp-diamond-spin-response-2026-09-06/epsilon_routines.py",
+      "reasons": [
+        "upstream_qcdark2_or_wimpy_provenance"
+      ]
+    },
+    {
+      "path": "docs/research/casimir-dp-diamond-spin-response-2026-09-06/epsilon_utils.py",
+      "reasons": [
+        "upstream_qcdark2_or_wimpy_provenance"
+      ]
+    },
+    {
+      "path": "docs/research/casimir-dp-diamond-spin-response-2026-09-06/routines.py",
+      "reasons": [
+        "upstream_qcdark2_or_wimpy_provenance"
+      ]
+    },
+    {
+      "path": "docs/research/casimir-dp-elastic-mass-mixing-2026-09-07.py",
+      "reasons": [
+        "email_like"
+      ]
+    },
+    {
+      "path": "docs/research/casimir-dp-exothermic-mixed-targets-2026-09-07.py",
+      "reasons": [
+        "email_like"
+      ]
+    },
+    {
+      "path": "docs/research/casimir-dp-inelastic-local-audit-2026-09-06.py",
+      "reasons": [
+        "email_like"
+      ]
+    },
+    {
+      "path": "docs/research/casimir-dp-neutrino-dispersive-basis-2026-09-07.py",
+      "reasons": [
+        "email_like"
+      ]
+    },
+    {
+      "path": "docs/research/casimir-dp-neutrino-highflux-intake-2026-09-07/SplineFlux2.cpp",
+      "reasons": [
+        "upstream_cpp_provenance"
+      ]
+    },
+    {
+      "path": "docs/research/casimir-dp-spin-response-intake-2026-09-06/WIMpy__WS1.py",
+      "reasons": [
+        "upstream_qcdark2_or_wimpy_provenance"
+      ]
+    },
+    {
+      "path": "docs/research/casimir-dp-spin-response-intake-2026-09-06/WIMpy__WS2.py",
+      "reasons": [
+        "upstream_qcdark2_or_wimpy_provenance"
+      ]
+    }
+  ],
+  "files": [
+    {
+      "path": "docs/research/casimir-dp-absorption-fermi-kernel-2026-09-07.py",
+      "sha256": "436144f88f3068145b06bb84af623cfb492e5603adae275d1c72c9890ec9af1d",
+      "bytes": 3885,
+      "gitBlob": "95ac1c6425719848169b9bb571fa463747d78c74"
+    },
+    {
+      "path": "docs/research/casimir-dp-absorption-kamland-audit-2026-09-07.py",
+      "sha256": "86461214715c19bd83e2b02983d325565620ea88d8d7d5d08a54d873dda87f72",
+      "bytes": 1441,
+      "gitBlob": "966f024c9c79192a053f6460cdabf9d455d2d7cd"
+    },
+    {
+      "path": "docs/research/casimir-dp-absorption-kinematics-2026-09-07.py",
+      "sha256": "ca903e2979812ca8ecf9315b78038f92641b96a3616c517a8b9e10fa0a365f7d",
+      "bytes": 1338,
+      "gitBlob": "4ee9f4cd84027cc6ca69b28cbe38f2fc8aa77b2a"
+    },
+    {
+      "path": "docs/research/casimir-dp-absorption-neutron-shift-2026-09-07.py",
+      "sha256": "e264e9adc8c4496cf6351a6415e8614b8e88280be44a8a0cb45a460a9cc686f7",
+      "bytes": 2534,
+      "gitBlob": "7ce14b20b803f37d8308909ba4c4e0919379c4ff"
+    },
+    {
+      "path": "docs/research/casimir-dp-absorption-rate-2026-09-07.py",
+      "sha256": "20b3adc518206caa51f964310d629a8654bf351e98e1d3cc3976406414c320fb",
+      "bytes": 3556,
+      "gitBlob": "d377148618e860925026b4d1d2fb6cceab900a9d"
+    },
+    {
+      "path": "docs/research/casimir-dp-absorption-removal-convention-2026-09-07.py",
+      "sha256": "1478a7c2776a70c1c0d2324c7d3b16999f1c7ca3a71a6fa7a13202b9646f4cbe",
+      "bytes": 1797,
+      "gitBlob": "dec8c3c1d8f0318ed87474e810fb1ef184cfab76"
+    },
+    {
+      "path": "docs/research/casimir-dp-absorption-response-qualification-2026-09-07.py",
+      "sha256": "83547771d11bc15d098466eb3973be6a7f8d331cab44241ef07ee97ea0581603",
+      "bytes": 1860,
+      "gitBlob": "c01af83e09dcb2c9fb69058647f8d65b86f654d7"
+    },
+    {
+      "path": "docs/research/casimir-dp-absorption-source-form-2026-09-07.py",
+      "sha256": "17065fd7768702386cf158703e13f90e27a837a090b7a87c4ae7fb359f003c24",
+      "bytes": 3219,
+      "gitBlob": "1ce52d76f48ac206145d6a2108b44b4d52b33c41"
+    },
+    {
+      "path": "docs/research/casimir-dp-absorption-spectral-convolution-2026-09-07.py",
+      "sha256": "0f74b819ff4e2b96b9b2e810d8da5fa552fdb7ce885e6b36ba00b29f9010daf7",
+      "bytes": 3853,
+      "gitBlob": "f38e64fdf9eab336ad2fb59ffb7ebe329e21ffb2"
+    },
+    {
+      "path": "docs/research/casimir-dp-absorption-spectral-intake-2026-09-07.py",
+      "sha256": "3f11126ea98e0f24ddf886baaec588eda72ce225b59aa65c2ece3e3ed1c2ddba",
+      "bytes": 2335,
+      "gitBlob": "1298d7fc01dc7aa1193ced32663111fcedc8f65f"
+    },
+    {
+      "path": "docs/research/casimir-dp-angular-bound-2026-09-07.py",
+      "sha256": "de412d1ef25d8259e497ee75b8375aa79e285248adc53c9b270b3a03775c53c4",
+      "bytes": 2892,
+      "gitBlob": "26769608f4db86a76768dc91c3f5c1271ec66eb8"
+    },
+    {
+      "path": "docs/research/casimir-dp-axial-elastic-kernel-2026-09-07.py",
+      "sha256": "d4899f6e50ae318c609e8000771afece30dfda73e196f535a0be6f486a6a41b7",
+      "bytes": 2245,
+      "gitBlob": "466524427839a28371eaf6de8483f4278e4cc600"
+    },
+    {
+      "path": "docs/research/casimir-dp-axial-sphere-fold-2026-09-07.py",
+      "sha256": "2ab196fd2130c0232363aa4e70e118df6ad46cb5cee3f731414b861662f9ec0c",
+      "bytes": 3421,
+      "gitBlob": "d8c931f78865247b7defa5fd37c0bed140aac462"
+    },
+    {
+      "path": "docs/research/casimir-dp-axion-assembled-subsets-2026-09-07.py",
+      "sha256": "d437f10cac13f73de009c96557d2628a43e4335e03915be2faffca2f030930ad",
+      "bytes": 4725,
+      "gitBlob": "1ec3f21bd9c848b5b9527b4fea5594bf5b6efd5d"
+    },
+    {
+      "path": "docs/research/casimir-dp-axion-box-hadronic-2026-09-07.py",
+      "sha256": "80759961e8b495fbcf3caf50e8ca8add0a5413b5e73dae66ef1a578f31f1b4b8",
+      "bytes": 2563,
+      "gitBlob": "86fde537d8d7df27aa32cb27ec01a192810ae9c9"
+    },
+    {
+      "path": "docs/research/casimir-dp-axion-broken-higgs-loop-2026-09-07.py",
+      "sha256": "e957b08220f9cb57758bf887bff8d725f6d85f71c379a3046935fe60d819c0ee",
+      "bytes": 3493,
+      "gitBlob": "31600e80f75315e029e8f35b97cfa322aed41ee4"
+    },
+    {
+      "path": "docs/research/casimir-dp-axion-candidate-tensor-membership-2026-09-07.py",
+      "sha256": "ba05ea517f55dcaf69b7db25e0a598443b58a8901e7829e8c89e9092d4e1c2f7",
+      "bytes": 4716,
+      "gitBlob": "4abde0a724c8db1545814b8c0c38ed1bbed18e08"
+    },
+    {
+      "path": "docs/research/casimir-dp-axion-coupling-flow-scan-2026-09-07.py",
+      "sha256": "243b1af76402b3a3f54cbd8318710bd8bf8fb721e4096f0da461121c04282561",
+      "bytes": 3522,
+      "gitBlob": "cc69756d8d50ef173aec499431a04f5f81493396"
+    },
+    {
+      "path": "docs/research/casimir-dp-axion-current-qq-independent-overlap-2026-09-07.py",
+      "sha256": "65aa215d256e235657431cbc63f183bd7cc8634a49307683de3208aecf7bbeba",
+      "bytes": 3633,
+      "gitBlob": "a7dae8b3c1f13fc94bdffb75b26decf686985776"
+    },
+    {
+      "path": "docs/research/casimir-dp-axion-dirac-box-2026-09-07.py",
+      "sha256": "148b9ee03620433c10f943d8325fb66ff42d2ebf49cd85eec09740f258b3b895",
+      "bytes": 2260,
+      "gitBlob": "861a53e78a4d8a3d7539af5272ec8dea57bd576a"
+    },
+    {
+      "path": "docs/research/casimir-dp-axion-direction-envelope-2026-09-07.py",
+      "sha256": "e7b9101ba44a1c8fed63b8773fb164211c696e0fba48916e07219b3fea1aab40",
+      "bytes": 2932,
+      "gitBlob": "0b8a5102bb3a1d251870dc57002ef10ae5de2893"
+    },
+    {
+      "path": "docs/research/casimir-dp-axion-epsilon-kaon-conversion-2026-09-07.py",
+      "sha256": "bd235a57712bffa9209ccde48bcd08c3364183575fc5439fbc56c29c553d12b8",
+      "bytes": 2576,
+      "gitBlob": "3f826a2a09eac5de3cc53fc9403fb2cacc42eca2"
+    },
+    {
+      "path": "docs/research/casimir-dp-axion-family-gluon-momentum-2026-09-07.py",
+      "sha256": "e5436831ee960d20200c3a246a9bf56d9c187b21f6be11767da27c1280e816dc",
+      "bytes": 2668,
+      "gitBlob": "043d6cef69b3a88e2faecc6b4095f1cb479ebff0"
+    },
+    {
+      "path": "docs/research/casimir-dp-axion-family-loop-cost-2026-09-07.py",
+      "sha256": "2e22efe63f48e62154991a9da206b98fbf4e6682967a7be634de426ec8a24231",
+      "bytes": 2670,
+      "gitBlob": "eeea3a34e42c2fdc2d76472e98960e83103c05d6"
+    },
+    {
+      "path": "docs/research/casimir-dp-axion-family-target-response-2026-09-07.py",
+      "sha256": "d37df76000f503566910eb780359d6d2d6e738ff56cbebc87ae6546cfe24098b",
+      "bytes": 2977,
+      "gitBlob": "d98fdb7967b6e8feca96736c3319c36d621aac0d"
+    },
+    {
+      "path": "docs/research/casimir-dp-axion-field-threshold-2026-09-07.py",
+      "sha256": "7502701e03f138bc0b614ddb19ac63132d721f5e27a98496dd4071656bda48fe",
+      "bytes": 2409,
+      "gitBlob": "b86bc9c8a66dc69c8cfe4cb1418f303daa28ae17"
+    },
+    {
+      "path": "docs/research/casimir-dp-axion-fierz-observable-diagnostic-2026-09-07.py",
+      "sha256": "977511eb36db648b6125d1792ac17fbbaf0ef02fb57dc6d40e209ad7781a7ba5",
+      "bytes": 2109,
+      "gitBlob": "f180580f9a181c86a6ad99ad585527230df98f0a"
+    },
+    {
+      "path": "docs/research/casimir-dp-axion-flag24-input-ledger-2026-09-07.py",
+      "sha256": "ff7ee219c84bbd50ff1673ad0ad5e9de9e0308df76286ca02a0a8fe440e31fff",
+      "bytes": 1757,
+      "gitBlob": "8d5f89fd344981ee2e593df0920d156891f0fae1"
+    },
+    {
+      "path": "docs/research/casimir-dp-axion-full-qq-matching-2026-09-07.py",
+      "sha256": "d440e1dcfa73de64954d574d40c29b8d3a77413dbae585dd390af710fc01dae9",
+      "bytes": 3226,
+      "gitBlob": "23dea6fc66c5e680386286c3058581438f30c782"
+    },
+    {
+      "path": "docs/research/casimir-dp-axion-generated-operator-matching-2026-09-07.py",
+      "sha256": "201d83857993d014dec8414954fdcd0dd84360b721434f9ac3a036422def1b04",
+      "bytes": 3331,
+      "gitBlob": "980547f7927098a14efa2d58cbedc4ba7c327e6a"
+    },
+    {
+      "path": "docs/research/casimir-dp-axion-generated-qu-matching-2026-09-07.py",
+      "sha256": "9e3f6e8a2a72d4342732948b1fc0c86019404e0d92156259b07cab6add5fa8e0",
+      "bytes": 2517,
+      "gitBlob": "ec38fbe820b909b055b6392ae3d2e858379913f3"
+    },
+    {
+      "path": "docs/research/casimir-dp-axion-gluon-insertion-2026-09-07.py",
+      "sha256": "bf74fbe7aa05a0f03b17b411b7db3a2c09ff2556ecfb9f723d6ecbea54d60b42",
+      "bytes": 3185,
+      "gitBlob": "675ee1d1e4edf560d30b6b0ecc0b2ddc2ba8918f"
+    },
+    {
+      "path": "docs/research/casimir-dp-axion-heavy-box-overlap-2026-09-07.py",
+      "sha256": "fb161bbc86babbd37ce3bb90f615d51fdf5b81f3a556c652d4c0ecd44c73feb4",
+      "bytes": 1793,
+      "gitBlob": "d605efa2123db4a0b4579ba626be5f4c13a4930a"
+    },
+    {
+      "path": "docs/research/casimir-dp-axion-heavy-gluon-threshold-2026-09-07.py",
+      "sha256": "54ee5f7f3fe1bd32170135cbbe8e0f14db11ef957287b5ef23245f611c0c25eb",
+      "bytes": 1603,
+      "gitBlob": "897156dfd6c02b7456259ed73a2892dce7b5a466"
+    },
+    {
+      "path": "docs/research/casimir-dp-axion-heavy-threshold-2026-09-07.py",
+      "sha256": "49e7a85e0c97e9a429af62363f980cf230bbecd8fe6f6f4237d124d38bee5eb1",
+      "bytes": 1933,
+      "gitBlob": "5b1ac71daeba5953d74cebe1f7cc9e8db9dc2497"
+    },
+    {
+      "path": "docs/research/casimir-dp-axion-higgs-hadronic-ledger-2026-09-07.py",
+      "sha256": "5fc18116f2b9cd04dc5844bfb75fed881f5a8893e819bad35d9a2462604a9952",
+      "bytes": 2219,
+      "gitBlob": "9b14981905f11c26412ec6c584bc200a94bd73bd"
+    },
+    {
+      "path": "docs/research/casimir-dp-axion-input-identifiability-2026-09-07.py",
+      "sha256": "2502bdff766c3e5a7ff1ed7dcfc18f2174416cef4754f3fd92ec388b5e42fe44",
+      "bytes": 2724,
+      "gitBlob": "0e0678d3dc85f8bd88f2c2dd5124e6a4414c7da9"
+    },
+    {
+      "path": "docs/research/casimir-dp-axion-joint-spin-2026-09-07.py",
+      "sha256": "f062669286962e444c762d76dea1dd2519ee12e0ebb1686d2fecd623338450fd",
+      "bytes": 4925,
+      "gitBlob": "0c0716128bee6f5e0ee90772b98bd929cf6f9770"
+    },
+    {
+      "path": "docs/research/casimir-dp-axion-kaon-box-screen-2026-09-07.py",
+      "sha256": "1aefbe35e2c30b93b7be365c5c48289bd375509cb8c2910aeab9a2889d9c3899",
+      "bytes": 3198,
+      "gitBlob": "a3647f24338314ef779d61e2f03bb4b99a090dd8"
+    },
+    {
+      "path": "docs/research/casimir-dp-axion-kaon-charge-sign-2026-09-07.py",
+      "sha256": "34f6662e0a3b80013b92a0468dba891439f7b39709940d753c572d4a98ecb2ac",
+      "bytes": 2180,
+      "gitBlob": "b2cc4646190cf071a782be994196c776e43a0ae7"
+    },
+    {
+      "path": "docs/research/casimir-dp-axion-kaon-chirality-audit-2026-09-07.py",
+      "sha256": "be4eb49aaa2af5fe46fafb6fd3889b0a95446e6b3b4c9b46a9ea1cd553761491",
+      "bytes": 3918,
+      "gitBlob": "c89ed38a52790c065ad78706be362bee7b226adc"
+    },
+    {
+      "path": "docs/research/casimir-dp-axion-kaon-mass-tradeoff-2026-09-07.py",
+      "sha256": "fdaaf1d2e3b811ca565de12cda2a8f6b0f6c190921c74404eeb998bf745d1f80",
+      "bytes": 2659,
+      "gitBlob": "2716eb054cfa7efa78db01f1a1eeb39da3075bfb"
+    },
+    {
+      "path": "docs/research/casimir-dp-axion-kaon-qcd-sensitivity-2026-09-07.py",
+      "sha256": "b21fac7f8b543cf23230f81a56340d7cc3bfbd47e535e6c54d506a8eecc18399",
+      "bytes": 2075,
+      "gitBlob": "463f97d9ab02a47ccffe15c5f1626566c5aaee28"
+    },
+    {
+      "path": "docs/research/casimir-dp-axion-kaon-signed-branches-2026-09-07.py",
+      "sha256": "b4db39e0c606e7f414f7c6fb5e67bd4b286868af434204a68b411b784876c1c5",
+      "bytes": 2155,
+      "gitBlob": "fc48dd1784f0cd8d3cb860efc928f58c139ebea7"
+    },
+    {
+      "path": "docs/research/casimir-dp-axion-longitudinal-matching-2026-09-07.py",
+      "sha256": "63eda9fe43f1835decfec9c72544b0d48a64dc57307eebdf33460e8a21da6430",
+      "bytes": 3294,
+      "gitBlob": "9568cc9fce4952799de69cee54f0cfe539c1b94c"
+    },
+    {
+      "path": "docs/research/casimir-dp-axion-low-qcd-evolution-2026-09-07.py",
+      "sha256": "f4110443183bf55fafdc2c775f312433b40649c3fcab69621135e46e82494738",
+      "bytes": 2615,
+      "gitBlob": "f71810d934d742d718000fbadaf2ad7f9cee502c"
+    },
+    {
+      "path": "docs/research/casimir-dp-axion-matching-library-input-audit-2026-09-07.py",
+      "sha256": "05a5cf64756a3422f5095a66e967da26ecdf9f82136b72c3f539050cddc5bd66",
+      "bytes": 3347,
+      "gitBlob": "2c0e187200b39723a806f236b09b30b9d159b013"
+    },
+    {
+      "path": "docs/research/casimir-dp-axion-messenger-pole-subset-2026-09-07.py",
+      "sha256": "eae621867864ff4156b24a2b7d1a906f1d865142465d417e4d7b8834c28259f5",
+      "bytes": 3371,
+      "gitBlob": "d82d454d564ebc4df0bfd2d37ee29248c8a2c2a0"
+    },
+    {
+      "path": "docs/research/casimir-dp-axion-messenger-threshold-2026-09-07.py",
+      "sha256": "39352aeb0e1ef59ba45721ce8b631d8cd08dba309fdfe2af4eed588066c16329",
+      "bytes": 2410,
+      "gitBlob": "f782090bdc67755f5f4d4f6b29df59db66d7d8b1"
+    },
+    {
+      "path": "docs/research/casimir-dp-axion-mixed-box-matching-2026-09-07.py",
+      "sha256": "96d041e242800bab74079682bcd976eb3c349dc92404c00f1ade812b6289ce0f",
+      "bytes": 2312,
+      "gitBlob": "5b476b3fcbb4b7a7d99528ba91bba2b9b33d689d"
+    },
+    {
+      "path": "docs/research/casimir-dp-axion-mixed-qcd-leading-log-2026-09-07.py",
+      "sha256": "efb8880addc5664cc666ca3b9155f57b164490a1cd557cef03cd7e358cf9f81c",
+      "bytes": 2010,
+      "gitBlob": "7c34efc2ae6e6c97e1211a23aa5d0d493e496c59"
+    },
+    {
+      "path": "docs/research/casimir-dp-axion-ndr-qcd-evolution-2026-09-07.py",
+      "sha256": "064ce30423a5a7ba3e021caa2e7fc49d42bfec4a7c55eb8c798945215c129057",
+      "bytes": 2663,
+      "gitBlob": "700d1be9924e2f78bd95a4364be90d03cc52435a"
+    },
+    {
+      "path": "docs/research/casimir-dp-axion-neutral-current-screen-2026-09-07.py",
+      "sha256": "eb3f76433e9998e3fbaaeb9e31b489bcad5985733c9edb465ada1294d2b6277a",
+      "bytes": 2364,
+      "gitBlob": "f24cd1a9229140c13413e1af71868533bd17c46c"
+    },
+    {
+      "path": "docs/research/casimir-dp-axion-pdf-moments-2026-09-07.py",
+      "sha256": "de77b0cff34a9e0ee3dc211691861e1fcc8a46c7ff00aad5d1e76fbf5a590ad3",
+      "bytes": 3353,
+      "gitBlob": "97febbfbb0cc32023c1a350425625cf1e9f5bad1"
+    },
+    {
+      "path": "docs/research/casimir-dp-axion-potential-closure-2026-09-07.py",
+      "sha256": "5b883625ff758cdf9546c08709f63618204cddf1d0da0d46b645217635ceecb9",
+      "bytes": 2453,
+      "gitBlob": "549a5d873c99f7fdad4073b925653884ea8497a4"
+    },
+    {
+      "path": "docs/research/casimir-dp-axion-potential-running-2026-09-07.py",
+      "sha256": "d6238bd0f0959e26de6c916f2295193ec22394d80c1e447676bb03c2c386c12a",
+      "bytes": 2371,
+      "gitBlob": "d4579cb17b3655fd203075a9004375744e3b3abb"
+    },
+    {
+      "path": "docs/research/casimir-dp-axion-qq-matching-2026-09-07.py",
+      "sha256": "da1bfddd207ef022f4ac7baf39bacc0dd904817806de28a133122374feaede66",
+      "bytes": 2488,
+      "gitBlob": "75079497e70eaabedcf39e05f6a848256dec846f"
+    },
+    {
+      "path": "docs/research/casimir-dp-axion-qq-term-decomposition-2026-09-07.py",
+      "sha256": "6ab884eb37968479cdb9e202c19a608f74e758235f85a867a401361e09a89000",
+      "bytes": 3701,
+      "gitBlob": "9584d31d0bf15d8650e0ace8033defd7fce640f1"
+    },
+    {
+      "path": "docs/research/casimir-dp-axion-qu-independent-overlap-2026-09-07.py",
+      "sha256": "e600fdba0c8241b63d69fb236fbc40af5ec0ae7a95954ffc578ebd3d769a461d",
+      "bytes": 2661,
+      "gitBlob": "8acb774d70ddd374de07e65e895e6583722fbc14"
+    },
+    {
+      "path": "docs/research/casimir-dp-axion-scalar-closure-bound-2026-09-07.py",
+      "sha256": "6ad33e409bda220c3a307b7d61cf0f665dbcefcc4697500f83a58aa85dcc3948",
+      "bytes": 2482,
+      "gitBlob": "1c85e211d4f4fc04a19fa58e5ece85b2b96d0d97"
+    },
+    {
+      "path": "docs/research/casimir-dp-axion-scalar-input-scheme-2026-09-07.py",
+      "sha256": "025dfea8356883b87fb7106af12a71f5b8bacd9f7b41b1fcac03ab1c6ad12a4f",
+      "bytes": 3473,
+      "gitBlob": "9e991b697cc7d1ccff04838e97d7d0b664a98b51"
+    },
+    {
+      "path": "docs/research/casimir-dp-axion-thermal-closure-2026-09-07.py",
+      "sha256": "b0e47ee0045baecd46d08472aa9a3924df2bf6e022af2e2a131086be8d617271",
+      "bytes": 2821,
+      "gitBlob": "9e58390d3bea874801244990df7cea837b6f26e1"
+    },
+    {
+      "path": "docs/research/casimir-dp-axion-tree-companions-2026-09-07.py",
+      "sha256": "26f6a53bb9bf98348717ec54fa3537b94db2e3e798d7fd0dc652cf483f929fb6",
+      "bytes": 3888,
+      "gitBlob": "81fa89b763bf80b9fbd68948f4c83c3875945a52"
+    },
+    {
+      "path": "docs/research/casimir-dp-axion-triangle-subset-2026-09-07.py",
+      "sha256": "147873c70c099788328ffac6a431b14ad6617f630ffa6406c8391fef2fe49ee6",
+      "bytes": 2557,
+      "gitBlob": "289750e152f1d6b4ca35a9e991209df32d538682"
+    },
+    {
+      "path": "docs/research/casimir-dp-axion-triplet-flavor-span-2026-09-07.py",
+      "sha256": "3a00b88224fee6e78970928ccf593d772e15d150efabefb009ec66eeb97078d2",
+      "bytes": 3249,
+      "gitBlob": "cbd322abc984dbe7ce56ad2aff7a6de6437dd6b2"
+    },
+    {
+      "path": "docs/research/casimir-dp-axion-triplet-mass-remainder-2026-09-07.py",
+      "sha256": "b94dd2b46085f3eba910dc2357834d3bda1ee681821100726a570be3befa68e8",
+      "bytes": 3092,
+      "gitBlob": "269d3a9db64ad7fdcec59dc2e00462e8851a52e2"
+    },
+    {
+      "path": "docs/research/casimir-dp-axion-triplet-symbolic-remainder-2026-09-07.py",
+      "sha256": "670db701fea0d4217b8fe0d31ec4e866219cfc16599cd4c446cfd52cfe1406eb",
+      "bytes": 3244,
+      "gitBlob": "ad7af4141bfb1b2048f69e05d8bb29f9c822f7e0"
+    },
+    {
+      "path": "docs/research/casimir-dp-axion-twist-rg-2026-09-07.py",
+      "sha256": "1e980d80c0e86c7531d72f5cfc6cd77892d3c7bcfc377731318972ab0d6c461d",
+      "bytes": 2201,
+      "gitBlob": "5083c7d9c3a68bc3087bfd3223279ec5e1b6a816"
+    },
+    {
+      "path": "docs/research/casimir-dp-axion-uv-current-sensitivity-2026-09-07.py",
+      "sha256": "1ffe60c11fd453d45eb7c1b86d35f2af7a9dc74c87df9f8e7a31e0959c4f1f57",
+      "bytes": 1929,
+      "gitBlob": "c20aa1ba08e807cf0d237a75495bde60aa3b71f8"
+    },
+    {
+      "path": "docs/research/casimir-dp-baryonic-mixing-benchmark-2026-09-07.py",
+      "sha256": "2aababac6eafb9211108fe83fe2c7fa542d771ba134e759973a69864289cfbec",
+      "bytes": 1469,
+      "gitBlob": "4fd1d3debd4afea973b928cbfd2815b66bff27fb"
+    },
+    {
+      "path": "docs/research/casimir-dp-bl-coupling-split-2026-09-07.py",
+      "sha256": "0d00c7a3d1b6a4951676f3bedcdc3997d818471cfddc566d59c99064288e28f0",
+      "bytes": 1305,
+      "gitBlob": "3aa3594e99a2017c519a1f520525e6c0c9db7147"
+    },
+    {
+      "path": "docs/research/casimir-dp-bl-eikonal-2026-09-07.py",
+      "sha256": "5515d44eab7f0b41c9ae7d2bd5de09970b031bede6602c08be29979a1cbcad1d",
+      "bytes": 3455,
+      "gitBlob": "9598f12f26b16e20826e36eb41a4b64b0bda8a42"
+    },
+    {
+      "path": "docs/research/casimir-dp-bl-fraction-screen-2026-09-07.py",
+      "sha256": "6d05170f276e9d7dcfb42b686a2698b1427c110800c092aa35e09f1132e1bc2d",
+      "bytes": 1218,
+      "gitBlob": "765e886677496c2366e77000e8e4af7ed17e8fb6"
+    },
+    {
+      "path": "docs/research/casimir-dp-bl-laboratory-screen-2026-09-07.py",
+      "sha256": "facf016b03a41fde0409b56f001c201577a9199eb00c0c369cc1bd7c59425beb",
+      "bytes": 1583,
+      "gitBlob": "1e209fd090551e9862a1a8ce05a13dd643abdb55"
+    },
+    {
+      "path": "docs/research/casimir-dp-bl-layer-conversion-2026-09-07.py",
+      "sha256": "b5bda4aad079ac8298196cf15b9af405a5d3f174ade60850f12a63df182c5fca",
+      "bytes": 1541,
+      "gitBlob": "9cd512724aa6cac850579030b7c6a59c2c7754f4"
+    },
+    {
+      "path": "docs/research/casimir-dp-bl-self-scattering-2026-09-07.py",
+      "sha256": "1a7743e2169885a81a799d4107b95f5e5564f30d3772df2853175b32c968f0b9",
+      "bytes": 1438,
+      "gitBlob": "8316ef7168b41b6d21ff7648bbfcf6e9351c3cb6"
+    },
+    {
+      "path": "docs/research/casimir-dp-bl-sphere-born-2026-09-07.py",
+      "sha256": "4aa995589ef4578c753404c5ead4e2dba8b3dc6bd6f2f017f03381384a01cf49",
+      "bytes": 2590,
+      "gitBlob": "c42f493ebe682f437e3211657d3f1f5d9a46518e"
+    },
+    {
+      "path": "docs/research/casimir-dp-bl-two-mediator-screen-2026-09-07.py",
+      "sha256": "777abb85898744f21d961069a983701eec30905ec29174d8c598fde3ebc3c492",
+      "bytes": 2109,
+      "gitBlob": "ca9aade71c08e86a861e3e9bde098875562f9262"
+    },
+    {
+      "path": "docs/research/casimir-dp-bminusl-carbon-open-xenon-spectrum-2026-09-25.py",
+      "sha256": "c84339eaf060911a4a362c6b810012edbb063c1164d76903f55072c24c3ad3c5",
+      "bytes": 9696,
+      "gitBlob": "789b6cd29002f5fbddf96fe8204a54a0952331ec"
+    },
+    {
+      "path": "docs/research/casimir-dp-bminusl-common-parameter-closure-2026-09-25.py",
+      "sha256": "b29cfbe98fc0a261a320508126f7a56279079e3f63ec73a36b7cb5c5b0c2e202",
+      "bytes": 5951,
+      "gitBlob": "e6674b89a7d1513d056d6e3d3ff9272ca6019a86"
+    },
+    {
+      "path": "docs/research/casimir-dp-bminusl-excited-state-lifetime-2026-09-25.py",
+      "sha256": "81c57a4e02fa9ef9c2bb9d33dc5498393dbcd953254e0b0105f4063c8ba5c3d5",
+      "bytes": 6162,
+      "gitBlob": "3c965c61beaa4a1557ec73b11457c6790e76ff86"
+    },
+    {
+      "path": "docs/research/casimir-dp-bminusl-lz-o1si-interval-crosscheck-2026-09-25.py",
+      "sha256": "003bc586ad98015a75dc21ea239874b8cf104145aeab3025a48cbe6ef75732f8",
+      "bytes": 5217,
+      "gitBlob": "67d657c0f6a127b4a499e0e26317e325c589a33e"
+    },
+    {
+      "path": "docs/research/casimir-dp-bminusl-quartic-star-envelope-2026-09-25.py",
+      "sha256": "066ead600cdccaf36cc196c839360b11c77a58194098cb266df2592bf474f21d",
+      "bytes": 3277,
+      "gitBlob": "bfa45138d084b35b6726050404f2000d0537ad2f"
+    },
+    {
+      "path": "docs/research/casimir-dp-bminusl-scalar-lz-carbon-screen-2026-09-24.py",
+      "sha256": "4abf442eddb2d001facc6ad0f3d63bd9fbdce7474e38dce210c9628bcc4065ad",
+      "bytes": 9642,
+      "gitBlob": "c2df751eddf2c4a86b4b5f7948be4191e0351858"
+    },
+    {
+      "path": "docs/research/casimir-dp-bminusl-splitting-notation-audit-2026-09-25.py",
+      "sha256": "ebe6714d27ef9e8e6e49ba5aca91224159b7d0c42497ca473f468c9ac31801f0",
+      "bytes": 6516,
+      "gitBlob": "e79d684f7170cd2b07e1c1a3fe468307ae4899fe"
+    },
+    {
+      "path": "docs/research/casimir-dp-bose-contact-xenon-2026-09-07.py",
+      "sha256": "814599ca0b688d32bd5e054f3bc429870e7d13d273498b73508b584e135174a8",
+      "bytes": 2917,
+      "gitBlob": "a4d2f40d559193eb2cfb3ec4194b269b8e883175"
+    },
+    {
+      "path": "docs/research/casimir-dp-bose-final-state-screen-2026-09-07.py",
+      "sha256": "ff59ef883c1bbd9c9af6b237f61678276517d80b44c688638522e344ce4a4d18",
+      "bytes": 2314,
+      "gitBlob": "27691f56ae59cc1323b18b57e24ecf7c6fb623ff"
+    },
+    {
+      "path": "docs/research/casimir-dp-bose-finite-time-bound-2026-09-07.py",
+      "sha256": "2f41b5e118a17dc5f644717b0558b31686a85c6669a549ea03b67ebe77a45108",
+      "bytes": 2539,
+      "gitBlob": "2786a7dc51c35420d5851452ab5b44cd9787bcc6"
+    },
+    {
+      "path": "docs/research/casimir-dp-bose-occupation-screen-2026-09-07.py",
+      "sha256": "f5fa99a1b2b4c8a1f2005911522a15f66d03f1f2757d65f0c9961783ce996b71",
+      "bytes": 2213,
+      "gitBlob": "12310192b29be40389e9db4407b674b014652e7a"
+    },
+    {
+      "path": "docs/research/casimir-dp-boson-star-local-encounter-screen-2026-09-25.py",
+      "sha256": "10d6bcb7a6bd6429395fc3b7d65da8fc9fd3028e05aacb54e4ac764b1d7c83e8",
+      "bytes": 8041,
+      "gitBlob": "4349f095492f72f0b65005d501a2f34320031147"
+    },
+    {
+      "path": "docs/research/casimir-dp-bosonic-free-field-scaling-2026-09-24.py",
+      "sha256": "2e72f9f0c0ce6d911f56789a0c515d652062a4a2199febfc0f76df1e70da4087",
+      "bytes": 4462,
+      "gitBlob": "af86e8cee1795518e08c3bbc9adfa247c1ba4541"
+    },
+    {
+      "path": "docs/research/casimir-dp-bosonic-two-component-observable-overlay-2026-09-25.py",
+      "sha256": "b1f491ed5254082d121b9289a162cc0c295c551797b53b37456e24c05b062c6b",
+      "bytes": 10267,
+      "gitBlob": "eb2dbd51273020d83a21e10163ca704bf84f6ec5"
+    },
+    {
+      "path": "docs/research/casimir-dp-c13-single-particle-2026-09-06.py",
+      "sha256": "c9c0019a73bf036134128259769eb08f743fd32bc6ded42a85a6d0a16721c4ec",
+      "bytes": 2797,
+      "gitBlob": "76984f8c478a99a9c22ef7fa0e51fe4eb24775fa"
+    },
+    {
+      "path": "docs/research/casimir-dp-capture-kinematics-2026-09-07.py",
+      "sha256": "05f4d49c8c0e42b8629c3d9daef7a6b50d58e030dfe08564c73a2ee626041514",
+      "bytes": 1589,
+      "gitBlob": "e94bafbd85fce3a25f8cd87fee2c0daba4afd4d7"
+    },
+    {
+      "path": "docs/research/casimir-dp-capture-supply-envelope-2026-09-07.py",
+      "sha256": "6bb4723ec57f169cde36bf7fdd5b2e2f868224d73d0f8d506892f1b1c69ff933",
+      "bytes": 1965,
+      "gitBlob": "b28a5f5e62fd5f5c594a7b83f340c44ef182d97b"
+    },
+    {
+      "path": "docs/research/casimir-dp-carbon-resonance-ceiling-2026-09-07.py",
+      "sha256": "db1c790a6be59f07409f2e2c05fc8938b1c43ab7065d1f4e64107affd17c0d7d",
+      "bytes": 1608,
+      "gitBlob": "6e48f979d4799d4bc1d751b9979c336f2d7baadb"
+    },
+    {
+      "path": "docs/research/casimir-dp-charge-fsum-stopping-2026-09-07.py",
+      "sha256": "28becdb842811be28b7e2da9dbbebf027694028964cba293f52b5f1e4cd1fed6",
+      "bytes": 2389,
+      "gitBlob": "4343ce61d2beb32c222b687d8a5ad5c40cf5503e"
+    },
+    {
+      "path": "docs/research/casimir-dp-charged-mediator-star-budget-2026-09-25.py",
+      "sha256": "b54a9db470f3499a1590e31620c4daf0a7dc63f1dd1ae7ca0764633e8c722ef4",
+      "bytes": 4853,
+      "gitBlob": "11d47bd4c9f0c8e560aaf9d57efbd846667ded8e"
+    },
+    {
+      "path": "docs/research/casimir-dp-coherence-shot-scenarios-2026-09-07.py",
+      "sha256": "865ce158b188c5020640bb39cee48cb93e3d6c066fc0f8e9e468887216861d9d",
+      "bytes": 995,
+      "gitBlob": "d48f6f470fab0ad01243d38b7c3b56c7f5387dc9"
+    },
+    {
+      "path": "docs/research/casimir-dp-common-beam-kick-covariance-2026-09-07.py",
+      "sha256": "464bbc08a690f08b5461a1ece31d6e280a19bfe7814af689a87c918d11e6bfe9",
+      "bytes": 1775,
+      "gitBlob": "81c8d319b6cdb442e0bb6776fc2f7b5cb913e43d"
+    },
+    {
+      "path": "docs/research/casimir-dp-common-population-kinematics-2026-09-07.py",
+      "sha256": "91ba504b6822febae11a356d9eafe74bb053ab8056e4a3aa3ebd0c60ab4c0626",
+      "bytes": 1599,
+      "gitBlob": "c4ef6a5a1c66e4f201a0f4023a7c382cf580d865"
+    },
+    {
+      "path": "docs/research/casimir-dp-composite-surface-mode-2026-09-07.py",
+      "sha256": "83a5bdb63c0a7bfe725f62375e7e3ad0943d9a989d85aae809d8e5e4aa21cdde",
+      "bytes": 1457,
+      "gitBlob": "5ad59ded140c538ed9ba458ae33c1ee03086d202"
+    },
+    {
+      "path": "docs/research/casimir-dp-composite-surface-sum-2026-09-07.py",
+      "sha256": "6e557b1f8c742b664001eb9457a6540b1318ad16bc3595096b3caeac95cd51d9",
+      "bytes": 2975,
+      "gitBlob": "30868680dbf971b1325a9a9f3842cd99d80dc44e"
+    },
+    {
+      "path": "docs/research/casimir-dp-correlated-kick-screen-2026-09-07.py",
+      "sha256": "d06ff7349de8fcd49f13df930d2ecb772488c868452edd0107c7c3ed4050635a",
+      "bytes": 1077,
+      "gitBlob": "fa2660a55d5a59f774caf961ca50997dd97db769"
+    },
+    {
+      "path": "docs/research/casimir-dp-coupled-attenuation-branches-2026-09-07.py",
+      "sha256": "f59da324332f9b4f856b4ea06313e0f2b2e982a0a2f993fbc5362f6bcebc5804",
+      "bytes": 2047,
+      "gitBlob": "b3441e09c2affb310e73aaeca34c5c68a8ed6062"
+    },
+    {
+      "path": "docs/research/casimir-dp-coupled-xenon-pilot-2026-09-07.py",
+      "sha256": "d9c7eb122da355149f31b3a29d3d32e5ae2ccf0d69e104cd767440fa5a8ced9a",
+      "bytes": 3523,
+      "gitBlob": "bd810bf65b40c82cd27ce27b45a48b3362d57f0e"
+    },
+    {
+      "path": "docs/research/casimir-dp-dark-composite-family-bound-2026-09-07.py",
+      "sha256": "136a2c323317ea047639c7d184cb471762c25b11d1c1f48f56f9660fcfef7885",
+      "bytes": 2275,
+      "gitBlob": "1c5826aab7ab04c4da63e840e32827d6f2c1c3a2"
+    },
+    {
+      "path": "docs/research/casimir-dp-dark-composite-force-rate-2026-09-07.py",
+      "sha256": "439bcd9441c8064486d1ef43a640c8bce0e4508a7335b1dd0255488500d0548e",
+      "bytes": 3727,
+      "gitBlob": "f103872c3d21c9b8a4b11f291a56ec4ef0a55060"
+    },
+    {
+      "path": "docs/research/casimir-dp-dark-composite-radius-2026-09-07.py",
+      "sha256": "df5b75be8d9c0b50c0fc569ad43f16590a43d1d79be2e2e4f32299430313bcab",
+      "bytes": 2159,
+      "gitBlob": "e5bf29184435f612ebe517550789e432ac88a239"
+    },
+    {
+      "path": "docs/research/casimir-dp-dark-photon-carbon-screen-2026-09-07.py",
+      "sha256": "6eb0848667b0da295c63bc0b482e4f677c503d15c1d59c006ec1c69f718ec8ab",
+      "bytes": 2819,
+      "gitBlob": "d1385182d02d95a77298ce2ce6a54eee638c969b"
+    },
+    {
+      "path": "docs/research/casimir-dp-dark-scalar-eikonal-2026-09-07.py",
+      "sha256": "3edb797a9c9f42e00ee53396fcc8fee94a7a605c5444795d106928b10353d1f2",
+      "bytes": 3546,
+      "gitBlob": "32cb35f3cb25eb05fcce924641d1b8aa10940205"
+    },
+    {
+      "path": "docs/research/casimir-dp-dark-scalar-eikonal-validity-2026-09-07.py",
+      "sha256": "3324804e9092cd7a198fae9f6ae41ac259109aee703f869c8d3338f9015283a4",
+      "bytes": 2242,
+      "gitBlob": "fee103742c830bee4498c3a41a77d2474b41d041"
+    },
+    {
+      "path": "docs/research/casimir-dp-dark-scalar-portal-potential-2026-09-07.py",
+      "sha256": "9ba58ffcd5ab6c3761a743ea00ecb720c3d3f8820f541754fb822ff2c89e4b9c",
+      "bytes": 1724,
+      "gitBlob": "7b0cbb074f2c65f49d99c6ca50622891a4d88fd8"
+    },
+    {
+      "path": "docs/research/casimir-dp-dark-scalar-sphere-2026-09-07.py",
+      "sha256": "1c5bed0ef605d558f7395fadb3122304dc2b79637c6b6d07e8ccef5166ac5028",
+      "bytes": 2465,
+      "gitBlob": "779d99508d73eea9622fa5fb70331c5887d1bb9a"
+    },
+    {
+      "path": "docs/research/casimir-dp-dark-scalar-xenon-companion-2026-09-07.py",
+      "sha256": "28c796b429bf709b2621fe1ab4722e4ac6df384e1e08287b2a32070cc287a582",
+      "bytes": 3010,
+      "gitBlob": "a4cfd3800091baf4e54a89a4f4806afcd7399441"
+    },
+    {
+      "path": "docs/research/casimir-dp-darkelf-thermal-partial-2026-09-07.py",
+      "sha256": "d567e1348115a8987164a7287084ed129a3cd730bf157687fbbaeb5bc73ad9b2",
+      "bytes": 2641,
+      "gitBlob": "35bb48ee3d6af73937d3fa404dfd2ca1c8af8150"
+    },
+    {
+      "path": "docs/research/casimir-dp-darkelf-xenon-match-2026-09-07.py",
+      "sha256": "6eaf46b926f7c93e75b6a5b4751be6995f7fc7076899b82fde11fddaf3ee1c23",
+      "bytes": 3696,
+      "gitBlob": "e749224a4a5529f1193af52b42b2a40c5340c9e4"
+    },
+    {
+      "path": "docs/research/casimir-dp-defensive-mixture-2026-09-07.py",
+      "sha256": "3ca2bc3abaa16ff8a8d5b4774abcdfb3cd730d955b44ba8ef653310e32e354eb",
+      "bytes": 2718,
+      "gitBlob": "54f1681be779629d65e2a2586da9a4c3d9d804d4"
+    },
+    {
+      "path": "docs/research/casimir-dp-diamond-density-sumrule-2026-09-06.py",
+      "sha256": "3f55c0b49014cbe48ea487f97251d8901438e7ed8c4e606375007ad50428b741",
+      "bytes": 2847,
+      "gitBlob": "107d342fa88312c14a4f0d397f2f84fb224188bc"
+    },
+    {
+      "path": "docs/research/casimir-dp-diamond-electronic-2026-09-07.py",
+      "sha256": "af829801480929e0d085a584bd77bcd4670315853efb85ddbb38ae6891818bf0",
+      "bytes": 3159,
+      "gitBlob": "783b6797b27fd4cf550b0458c39cf1aea11d1019"
+    },
+    {
+      "path": "docs/research/casimir-dp-diamond-response-intake-2026-09-06.py",
+      "sha256": "8b90879c3d30e37ebec753190c9ef66309150b6466b5686fb7b552afbdee7cde",
+      "bytes": 3058,
+      "gitBlob": "556d99e12cd843f43f7de5bc3e858750ada97203"
+    },
+    {
+      "path": "docs/research/casimir-dp-electron-acoustic-contact-2026-09-07.py",
+      "sha256": "370ee415bf87123f475cd11c5e25783f161afda4f91cfd4bf9f1c42b8e37e7f5",
+      "bytes": 1873,
+      "gitBlob": "bdca03b87b6dc278fab7d9ad77f262fadb2be917"
+    },
+    {
+      "path": "docs/research/casimir-dp-electron-box-heavy-limit-2026-09-07.py",
+      "sha256": "5ee59db5065982230a1126bef8e31e07d0c8d9a065df566a6ab3819b14d7a26a",
+      "bytes": 1239,
+      "gitBlob": "e3e625af0d00f6c7279215a60e186392b485a85a"
+    },
+    {
+      "path": "docs/research/casimir-dp-electron-box-scalar-master-2026-09-07.py",
+      "sha256": "2e99363404e2a6d63c12ccf25ff06a2e52b137743a8e65d1fb3a63ea34685936",
+      "bytes": 1757,
+      "gitBlob": "2079d66e311f2c567ed83a38f5d7c104919d7fa8"
+    },
+    {
+      "path": "docs/research/casimir-dp-electron-box-spin-operator-2026-09-07.py",
+      "sha256": "1d90e082704b537166d96b579a5ff7e3edc090c10c15b8b9171be6b683a6ba8e",
+      "bytes": 2351,
+      "gitBlob": "40c209ed109e2df6c10edc0b8b83d765d952f0b8"
+    },
+    {
+      "path": "docs/research/casimir-dp-electron-box-spin-trace-2026-09-07.py",
+      "sha256": "0c55ad21e0798a41b233f07038d62dba143d674d742a547f5a2c1e817b1c6ef8",
+      "bytes": 2643,
+      "gitBlob": "1e524db42bcdf38f5ecb4ddcfa6acdb8890f7f27"
+    },
+    {
+      "path": "docs/research/casimir-dp-electron-box-ward-2026-09-07.py",
+      "sha256": "206856fd465ff3fc1258fc942f2b6a8e3569b83982bc0d7efe4a79aa1155ef4a",
+      "bytes": 1937,
+      "gitBlob": "3a370dd3a14ccca035abbd0753eaf1a610d2dde0"
+    },
+    {
+      "path": "docs/research/casimir-dp-electron-contact-cross-check-2026-09-07.py",
+      "sha256": "79e9115c334c8b03d012173fd2e944cba91a227f4f3de13bd65b105fa37ed9fd",
+      "bytes": 1712,
+      "gitBlob": "99770f02ce9f892b77837b4cdb92429500f8d202"
+    },
+    {
+      "path": "docs/research/casimir-dp-electron-contact-xenon-fold-2026-09-07.py",
+      "sha256": "07636dc8a2ad488ad6d95b2d8c1da87ec31639b150be64750f1f38c55e572928",
+      "bytes": 3052,
+      "gitBlob": "d6e3418b0090b3e2aa1ac37219298e83c3366c8a"
+    },
+    {
+      "path": "docs/research/casimir-dp-electron-forward-motion-2026-09-07.py",
+      "sha256": "95a5c69eb0f82ca41d2994459684910d76edfe5c0badb462f7d125172207ce3e",
+      "bytes": 1783,
+      "gitBlob": "d971175d25f11f67aa2989865d11e46172fa169f"
+    },
+    {
+      "path": "docs/research/casimir-dp-electron-range-diamond-2026-09-07.py",
+      "sha256": "63b36eda6190382ada11f94e0af7dc6fdbf0775a5e132610857f155c533e12ea",
+      "bytes": 2992,
+      "gitBlob": "4758c8bbdc8729fa2955a9d5c108160f44ebb508"
+    },
+    {
+      "path": "docs/research/casimir-dp-electron-range-ratio-2026-09-07.py",
+      "sha256": "28edaa200c031b1c21fc756980f9b857f3350aeea9bfbaf8508bff3784be65fb",
+      "bytes": 1309,
+      "gitBlob": "6db0f5cecde4ee2fd85595ee6284f6ff234a2d09"
+    },
+    {
+      "path": "docs/research/casimir-dp-electron-range-xenon-2026-09-07.py",
+      "sha256": "c3dc4d861abf0ab642393764e3e39f89700887d84d3de70521de1b7469110740",
+      "bytes": 3101,
+      "gitBlob": "33b6cbb002e59c880f1f836e6f98f95fc98c5196"
+    },
+    {
+      "path": "docs/research/casimir-dp-electron-rigid-sphere-2026-09-07.py",
+      "sha256": "076530214b660f5e2d87302e6c029b44868fd73a1fcd23ed5a136f5bec82318d",
+      "bytes": 1774,
+      "gitBlob": "274d2cef2e33baa8d60ecfffcd370da1f545484b"
+    },
+    {
+      "path": "docs/research/casimir-dp-electron-scalar-twist-fit-2026-09-07.py",
+      "sha256": "1e82dd2e4b7dd25e0d9fc603b57acd57afa89fb578e42a2c37fab3ab73c88b65",
+      "bytes": 1344,
+      "gitBlob": "95da1d3d22e8eaddee7e4cf687c5d6e981ae3e93"
+    },
+    {
+      "path": "docs/research/casimir-dp-electron-unit-contact-2026-09-07.py",
+      "sha256": "1ab273ce2d0e2c23bc31f5495082d7c6a3ae368ea1031d3b979c31ca1751f220",
+      "bytes": 2997,
+      "gitBlob": "72766d497e799f6ac1e421c8c7911ba5efe72bb0"
+    },
+    {
+      "path": "docs/research/casimir-dp-electroweak-current-audit-2026-09-06.py",
+      "sha256": "f0f658b230ebf660e44e7429899ad1d49f6d2e8b00b3212b7bc27d1d8d388c93",
+      "bytes": 3707,
+      "gitBlob": "c5a2312b82b162a485aad33470b3386b37e427ef"
+    },
+    {
+      "path": "docs/research/casimir-dp-excess-charge-diagnostic-2026-09-07.py",
+      "sha256": "c2a0064a5f23b00299729c8bd7d3de4ff08f745c3396d8e04404e5e6ba2d3920",
+      "bytes": 2073,
+      "gitBlob": "e251cde9736786e8778bbde6f6a8dd501f611f90"
+    },
+    {
+      "path": "docs/research/casimir-dp-exothermic-additive-coherence-2026-09-07.py",
+      "sha256": "57fc2c9af611b0139661b9500d51cc2a10e9abae89434e7d48bab2f45caedf59",
+      "bytes": 1732,
+      "gitBlob": "28d84accc4b41abc2f0926f8cbaab9c061668420"
+    },
+    {
+      "path": "docs/research/casimir-dp-exothermic-all-speed-envelope-2026-09-07.py",
+      "sha256": "b4d75552bde301aa6d3627d22099ae1c36bafb10e9e3572e9aab13004404dc69",
+      "bytes": 1606,
+      "gitBlob": "a5bf0c021dec3a6852a807a2a4a043b46588a75c"
+    },
+    {
+      "path": "docs/research/casimir-dp-exothermic-carbon-bridge-screen-2026-09-24.py",
+      "sha256": "3ce14eb752d52165ac9f4de6d14ee5ca0b3448dd4f4547e7054a222492f233c1",
+      "bytes": 6278,
+      "gitBlob": "8191c87c06045b2cbb0324b1ac02221210db9bdd"
+    },
+    {
+      "path": "docs/research/casimir-dp-exothermic-common-rate-2026-09-07.py",
+      "sha256": "88b9b551c88645ce49e1212751068d23ba25cf5d20ba43a351623947f0244567",
+      "bytes": 3128,
+      "gitBlob": "5aa28f576a0694bc5d30714dfd3cd7bc0a9940e9"
+    },
+    {
+      "path": "docs/research/casimir-dp-exothermic-companion-bound-2026-09-07.py",
+      "sha256": "c957d7860710584a5de43c99458558fa83ac566cf2abfa0cd27643ff647b8475",
+      "bytes": 1809,
+      "gitBlob": "b4445b1856ca5a94ae3b92992dd0a0163d3c14e6"
+    },
+    {
+      "path": "docs/research/casimir-dp-exothermic-depletion-ceiling-2026-09-07.py",
+      "sha256": "0a5b887e9b55be5b63d18a8b3af1d8798f075a2eff52d8a308c9fc182186ae09",
+      "bytes": 2141,
+      "gitBlob": "99b6eb7ebd25b358fa0bfabce8ed4bdf61580cba"
+    },
+    {
+      "path": "docs/research/casimir-dp-exothermic-hypercharge-decay-2026-09-07.py",
+      "sha256": "85e85cac6dd4742caebf62bcb7889bcb3b0dd070526af4b0dcc8a0b4d669202f",
+      "bytes": 2271,
+      "gitBlob": "2f62222dc09c2e8479670181ddc85f71b37e4ab0"
+    },
+    {
+      "path": "docs/research/casimir-dp-exothermic-lead-screen-2026-09-07.py",
+      "sha256": "c7b2dbae6a27f72b195fb80772ac7bc2a0f6dde8c81e128b3cdd8786e0c660ba",
+      "bytes": 1307,
+      "gitBlob": "c0cd8eb521775bc8c520c28f1811f947f9948b1a"
+    },
+    {
+      "path": "docs/research/casimir-dp-exothermic-light-mediator-bound-2026-09-07.py",
+      "sha256": "ccb391fbe41d5a39d3a0255a9cb07b204219b1b1db07cc531ed60d28563339fb",
+      "bytes": 2249,
+      "gitBlob": "93ebe464b470bd9a45afd1d4d20f9d94340f5528"
+    },
+    {
+      "path": "docs/research/casimir-dp-exothermic-magnetic-screen-2026-09-07.py",
+      "sha256": "ee40e2fac3a2b0d957300b2db06313c845814c183cb8e310d1e912994ca6c953",
+      "bytes": 1897,
+      "gitBlob": "4e9cd2eb5e9a2732b4b1bf1983f6d0c7aa90d211"
+    },
+    {
+      "path": "docs/research/casimir-dp-exothermic-mediator-survival-2026-09-07.py",
+      "sha256": "4542529b05d392163ace9f9fbe99f24ac185b37991e35f6b74c4c696c4826409",
+      "bytes": 1581,
+      "gitBlob": "7a54f9fe2da1962242a673c40f26a299e60e1fd5"
+    },
+    {
+      "path": "docs/research/casimir-dp-exothermic-neutrino-survival-2026-09-07.py",
+      "sha256": "d81daa1d5e1f205596d05266567c41ac54a1eafdd4c9d5af2ee05d0962617e68",
+      "bytes": 2605,
+      "gitBlob": "62a4139d4aac2e58e1de627d8f15ada96ba71225"
+    },
+    {
+      "path": "docs/research/casimir-dp-exothermic-new-proposal-2026-09-07.py",
+      "sha256": "39cee97c508697722a57707746be419855382bfb16ac5ee6f162b380d1d70a4e",
+      "bytes": 2127,
+      "gitBlob": "52e39143be31a3564ee03e2b76b467765bfec1fa"
+    },
+    {
+      "path": "docs/research/casimir-dp-exothermic-population-requirement-2026-09-07.py",
+      "sha256": "dcd12c7b80fa32c77a77f6cf3a581c8f6abcaec347bfc89d945c5a1cd4f923cd",
+      "bytes": 1692,
+      "gitBlob": "136eef67f1f7d31a302d29a975308071e876d856"
+    },
+    {
+      "path": "docs/research/casimir-dp-exothermic-radiative-spectral-2026-09-07.py",
+      "sha256": "94d1ec3009925207621a8e9a6fd8af5178694626fa5d2e98493376a2d506c20d",
+      "bytes": 1507,
+      "gitBlob": "05229d8fcca2e066ddb9ed1d802a11a9f7ebf1a9"
+    },
+    {
+      "path": "docs/research/casimir-dp-exothermic-radiative-validity-2026-09-07.py",
+      "sha256": "c1d1c69177945af5cb51c2ef46f8cc9f21eecf98c9e313c272a81d0a99ae1c3c",
+      "bytes": 1082,
+      "gitBlob": "dcc86f37d4d25405471c14b32f079ef00d5dcc90"
+    },
+    {
+      "path": "docs/research/casimir-dp-exothermic-tabulated-radiative-2026-09-07.py",
+      "sha256": "e76984c1c9bfd81c6adb2d14aa4cd4591459cafbe867a4a5221055f2634733e5",
+      "bytes": 2967,
+      "gitBlob": "35bd42a22464373f83e98c1497d22c63103362fe"
+    },
+    {
+      "path": "docs/research/casimir-dp-exothermic-vector-phase-space-2026-09-07.py",
+      "sha256": "ccb6d3c4b0d89099c6f8b7af362d6eb33557be24062ff4354272c6c01a88efb1",
+      "bytes": 1739,
+      "gitBlob": "33f681b466de5072b0b5f07e325001b66a888805"
+    },
+    {
+      "path": "docs/research/casimir-dp-finite-speed-xe131-2026-09-07.py",
+      "sha256": "6b9b608d40f8e9d7cf6add7b9f038c0a0926efaad187907b40f46fe851e27158",
+      "bytes": 4053,
+      "gitBlob": "bd6c076c193e68bf282afd7c14c98ddb7fdc568b"
+    },
+    {
+      "path": "docs/research/casimir-dp-focusing-moment-2026-09-07.py",
+      "sha256": "cf8c173a796df3882b6aae97f38490fc30face42d232227cdbf1cd285e2ffb1c",
+      "bytes": 1636,
+      "gitBlob": "2f31cefa9f6f25be0581d1ed97c22709068584e0"
+    },
+    {
+      "path": "docs/research/casimir-dp-four-observable-branch-verdict-2026-09-25.py",
+      "sha256": "339ef51be42bd0a93502f32441526a4127e8dd3aabbb008b883e937e37b8dfa3",
+      "bytes": 9210,
+      "gitBlob": "85a4bf44578baaa736866133df7707629558836a"
+    },
+    {
+      "path": "docs/research/casimir-dp-free-complex-star-kaup-scale-2026-09-25.py",
+      "sha256": "c414985080f95c02fa68034b8720bb95ac63cef1594146c6b1398f08832a89d2",
+      "bytes": 1877,
+      "gitBlob": "de91f462e48ced30f98b5f9c9d1598437c101e31"
+    },
+    {
+      "path": "docs/research/casimir-dp-full-angular-check-2026-09-07.py",
+      "sha256": "119c76a78920a95b0ad5a5ed92fb5aaa7cf9eab519ceffc1ed6153e15dd75392",
+      "bytes": 2685,
+      "gitBlob": "94f666c94daad6fc64b93817f18f76d400bcaaf2"
+    },
+    {
+      "path": "docs/research/casimir-dp-helm-potential-2026-09-07.py",
+      "sha256": "8598625c5d34cec4759429ef4b8e5bcadf4b45a946374bf4b08534ad12a7ce03",
+      "bytes": 3247,
+      "gitBlob": "35edd05ef39c94011988c009c7734e953126c13f"
+    },
+    {
+      "path": "docs/research/casimir-dp-idm-excited-state-lifetime-2026-09-25.py",
+      "sha256": "b8a77e04cc67db44dbbbf172df664d5a8d8adef9b938372cb675e13f0c93e1b8",
+      "bytes": 4152,
+      "gitBlob": "0230ee0a2618ff3ee47f2197b66fdd2930836eef"
+    },
+    {
+      "path": "docs/research/casimir-dp-idm-folsom-tng50-earth-frame-fold-2026-09-24.py",
+      "sha256": "8a833ff51a669f817eaa315b2ba16c4f62cb80d60b657fd320d41f7c8235fc8b",
+      "bytes": 9494,
+      "gitBlob": "2e56af3b5cf1249faa5d66dabc9862c8ecccde89"
+    },
+    {
+      "path": "docs/research/casimir-dp-idm-folsom-tng50-recoil-spectrum-2026-09-25.py",
+      "sha256": "7c3fe5674581b8542e838792e7e2a3c2784867039c1e2e229657e01d6bc4a4d1",
+      "bytes": 9638,
+      "gitBlob": "96b3206333dea2f1f0f3b15a473f07bffaef366b"
+    },
+    {
+      "path": "docs/research/casimir-dp-idm-gaiadr3-tail-sensitivity-2026-09-24.py",
+      "sha256": "3c9f7d81c8bbce8aba37109eae9f271c5ccc58c779c80fbdaa5c48213bf2ca72",
+      "bytes": 6080,
+      "gitBlob": "b4ff7ef2bc0a9dab83dfd434143316197ecf613b"
+    },
+    {
+      "path": "docs/research/casimir-dp-idm-gamma-channel-crossaudit-2026-09-25.py",
+      "sha256": "0265fac23823a200658e2acf451ff089e3affe7f950d7aa498af92492a16bff1",
+      "bytes": 3607,
+      "gitBlob": "43e7710879d31ec760b24f9cf7a15a899f89ad97"
+    },
+    {
+      "path": "docs/research/casimir-dp-idm-gravity-only-xenon-screen-2026-09-25.py",
+      "sha256": "5ffefa2db231868da2c6f3419ea48dcf9a4ed1f94d029b4f6c8b4cfebb956372",
+      "bytes": 4275,
+      "gitBlob": "63273f87d57792c77a21535698cc83948e1a3c79"
+    },
+    {
+      "path": "docs/research/casimir-dp-idm-heavy-field-bosonstar-scale-2026-09-25.py",
+      "sha256": "cae6876d633915493414908e8ca55ca669a87de26f97a2ddbfb23093dc8ba7b4",
+      "bytes": 2932,
+      "gitBlob": "fc6e2f616da26ce88c8bfb6d4ba0e887f74eae31"
+    },
+    {
+      "path": "docs/research/casimir-dp-idm-hess-applicability-screen-2026-09-25.py",
+      "sha256": "62bc2aea7cf2622ead5c3047c3790120fc380c007b26eedca60f12a33b8934f2",
+      "bytes": 3483,
+      "gitBlob": "4e65f5e4ac5a376d2b291a7ddec0dc288f4f827c"
+    },
+    {
+      "path": "docs/research/casimir-dp-idm-hess-public-data-audit-2026-09-25.py",
+      "sha256": "495f617676dd80dc4c49d75402b313827528d171e547c75c7a9db55615972549",
+      "bytes": 7958,
+      "gitBlob": "f164ab25abcc68e0e9a4ab9dbe28a70bd17b40e0"
+    },
+    {
+      "path": "docs/research/casimir-dp-idm-lz-bridge-screen-2026-09-24.py",
+      "sha256": "7657e632421e17f5b6a01b4a1f3d56bbcd3de09cc8e13d3a1d96f0caefea532f",
+      "bytes": 9683,
+      "gitBlob": "05ad13b1fd4dd5baedb4d2557c8a5ad9b0ea61a0"
+    },
+    {
+      "path": "docs/research/casimir-dp-idm-phi-four-observable-gate-2026-09-25.py",
+      "sha256": "e9b0c9e4ab8dd1f6289703ed1b4bc2a3c6d95a4d787d6c8f728b31124834bd32",
+      "bytes": 9150,
+      "gitBlob": "712a63e503a573e0533575f36cb1be0411f083f8"
+    },
+    {
+      "path": "docs/research/casimir-dp-idm-phi-portal-production-screen-2026-09-25.py",
+      "sha256": "4816bee644f52705143edba90818d1afb38879bc3f998a25a751fb36597faef1",
+      "bytes": 4986,
+      "gitBlob": "ca63588ee83996114aef7e987aab2918cdf6ac38"
+    },
+    {
+      "path": "docs/research/casimir-dp-idm-separate-production-observable-scaling-2026-09-25.py",
+      "sha256": "642ad51849fa4b8c6112e5ed72c0b9caa69334c991ce498c7ab469eb6ab42527",
+      "bytes": 6376,
+      "gitBlob": "683a3506c9eaf7701341fecb14e2f3f00a25a2ab"
+    },
+    {
+      "path": "docs/research/casimir-dp-idm-shift-portal-screen-2026-09-25.py",
+      "sha256": "b998891340f0ffadff8844611ef70c3e89d7ac937ef4dc88e2ca2cd7970f6642",
+      "bytes": 3406,
+      "gitBlob": "7931e7490123915d1ca4e2550eca2ab879ed8bb2"
+    },
+    {
+      "path": "docs/research/casimir-dp-idm-staudt-fire2-halo-integral-2026-09-24.py",
+      "sha256": "a59525d0341ed747327cba44e6ff7f1bd88c099750ab053509426d97579e4538",
+      "bytes": 7039,
+      "gitBlob": "acd309be920081819bedc3d4452eda2fb70d1d8c"
+    },
+    {
+      "path": "docs/research/casimir-dp-idm-ultralight-fraction-scaling-2026-09-24.py",
+      "sha256": "b2cfe55ef0e33d98666d883cda1959de8295fa457ebe1cb5a130f030d5aea4cb",
+      "bytes": 3785,
+      "gitBlob": "22d3eb9eab519dbdd0cff0186a5e5cda70152f37"
+    },
+    {
+      "path": "docs/research/casimir-dp-idm-ultralight-portal-rate-screen-2026-09-25.py",
+      "sha256": "fdadf5b1b3e8ae807f2aafe8470d2810020c6ba1c5d2568be4bbb5d6afaf2336",
+      "bytes": 3527,
+      "gitBlob": "ac6ce0a724583d63a9852e1905167403df496213"
+    },
+    {
+      "path": "docs/research/casimir-dp-idm-underabundance-coannihilation-preflight-2026-09-25.py",
+      "sha256": "d1941e33a23baac95587f09f22293115c60fd11f4372cce09964434344e3479c",
+      "bytes": 7751,
+      "gitBlob": "1743da10b2abfbc3db6bfcb8d16bb37a1ee507ab"
+    },
+    {
+      "path": "docs/research/casimir-dp-incident-flux-screen-2026-09-06.py",
+      "sha256": "4642be1a80de5d723ce8d5718f99e47cb13bbd8e9ec653aed730c060ffa319ba",
+      "bytes": 3055,
+      "gitBlob": "9c5524369881fc926a2c5cb259fe29bdd549fdcc"
+    },
+    {
+      "path": "docs/research/casimir-dp-inclusive-charge-closure-2026-09-07.py",
+      "sha256": "64e8f43445a23e667f442c87563bdaf8e7e793d2fa3be647055bc7c6dd047267",
+      "bytes": 2053,
+      "gitBlob": "bcc305d799575af98024db44f36d1b82a94a342a"
+    },
+    {
+      "path": "docs/research/casimir-dp-l10-halo-2026-09-06.py",
+      "sha256": "bc09a637a22c4bbc1cb7ec0acbe6c884b6021851e4dc451347c19e1c369788a3",
+      "bytes": 5490,
+      "gitBlob": "0e50ffc9363f253cd45e94cf9038b535aafd290f"
+    },
+    {
+      "path": "docs/research/casimir-dp-l10-joint-kernel-2026-09-06.py",
+      "sha256": "021377449f1c55d9f6fc8275706f7f9320b6e56b635ea6ad188f80d8572769d8",
+      "bytes": 5736,
+      "gitBlob": "bccedea5a48e438e3cfbccb065406178409a828c"
+    },
+    {
+      "path": "docs/research/casimir-dp-l10-operator-audit-2026-09-06.py",
+      "sha256": "7d8ee0be0710792364ab984ff34529c4e208fd9747a3eec781e076541d2b4215",
+      "bytes": 2793,
+      "gitBlob": "78f47488c1f49675dc0d134ca1f2331f5309c40b"
+    },
+    {
+      "path": "docs/research/casimir-dp-localized-arrival-bound-2026-09-07.py",
+      "sha256": "2fb8f09625bb544f0a7a58df53b0b92ad23b04c3c1d2e711cbdf4963ec7c231d",
+      "bytes": 1164,
+      "gitBlob": "91b67cd0b2738432effed0a4310cd8572ee9f401"
+    },
+    {
+      "path": "docs/research/casimir-dp-low-high-spectrum-2026-09-07.py",
+      "sha256": "1ffa7003f2eccc7d88387d7ad6ab9ec3c512af1572a7a6b0b825d16997a3d57a",
+      "bytes": 3307,
+      "gitBlob": "a19c5efd4f400014bc66faef3ddc74508f51aa49"
+    },
+    {
+      "path": "docs/research/casimir-dp-lower-energy-transport-2026-09-07.py",
+      "sha256": "2aab4021d1646b015c0377e26b572c887df110e644e2f63a2786d490d48b7aa7",
+      "bytes": 2659,
+      "gitBlob": "7e31e3a4554e7850700362ad8c3ae965434458c6"
+    },
+    {
+      "path": "docs/research/casimir-dp-lower-recoil-transport-2026-09-07.py",
+      "sha256": "81aae140c3a1588d18bbf210bcb14c1a8fa971837b11d5850a4a2abd4dda983b",
+      "bytes": 1873,
+      "gitBlob": "7b31a83844069e58861a4a4fc908b75fda387aa0"
+    },
+    {
+      "path": "docs/research/casimir-dp-lz-hepdata-inventory-2026-09-25.py",
+      "sha256": "23d5e96fad3d936c5978dbd07b92a754f84b917a1b11a49d946c372389db212b",
+      "bytes": 4179,
+      "gitBlob": "4fe11cdf97e9750f41f03d98bdbb2637c6751bad"
+    },
+    {
+      "path": "docs/research/casimir-dp-lz-inelastic-sideband-screen-2026-09-24.py",
+      "sha256": "6a634962318968b1947e323054fe1e5cbd3a23926337bca3f416d8600ff49ab8",
+      "bytes": 10282,
+      "gitBlob": "ca3d6a52d90c3fcb1e7f2986c4c308d3c9fcbf68"
+    },
+    {
+      "path": "docs/research/casimir-dp-lz-nest-interface-2026-09-07.py",
+      "sha256": "59d829c56391cf3b8b3b54afd1092863c3c2f3f16a3415797e5ccff0dfc68096",
+      "bytes": 2165,
+      "gitBlob": "d318938065e3f8a038760ed7a13abb6fef64cf53"
+    },
+    {
+      "path": "docs/research/casimir-dp-lz-nr-parameters-2026-09-07.py",
+      "sha256": "f6c789760fd58ed7e31deb883de1bfaef8b03177ad621ef5165fa39ff7cf9043",
+      "bytes": 1320,
+      "gitBlob": "ea57941c310a04ebd1fb89b216d0c375aa7ca965"
+    },
+    {
+      "path": "docs/research/casimir-dp-lz-ultralight-recoil-kinematic-screen-2026-09-25.py",
+      "sha256": "575fdbb7117a19e1b083c3681740d610d05849e546085ab7ae3bfcac09381bb0",
+      "bytes": 3242,
+      "gitBlob": "dc4148c36ce12251016554b42be03952eeaff993"
+    },
+    {
+      "path": "docs/research/casimir-dp-matched-capture-2026-09-07.py",
+      "sha256": "32ea80f57da8ffad03fd034f9791cb12ecf13f38188f0bc3da8dba0a5eda5ac2",
+      "bytes": 2253,
+      "gitBlob": "4b25a3cf291a512bdeb510c65f8b5119cc4a1530"
+    },
+    {
+      "path": "docs/research/casimir-dp-matched-sphere-resonance-2026-09-07.py",
+      "sha256": "c010594085c2d9d46371f21ff71629788d2a532e833dd455e3b7601c5abaeb6a",
+      "bytes": 2151,
+      "gitBlob": "b35e247ae76bc14fb145e1d083dd36c2bb8d13f5"
+    },
+    {
+      "path": "docs/research/casimir-dp-natural-xenon-kernel-2026-09-07.py",
+      "sha256": "8a934219a98d01093ad6e69beb3ffb0518dd611280dd7846c280a207bb83c7ef",
+      "bytes": 3278,
+      "gitBlob": "6aafd41c77012c3c2a6260ae941009a270f8f534"
+    },
+    {
+      "path": "docs/research/casimir-dp-neutral-intermediate-envelope-2026-09-07.py",
+      "sha256": "932d8ceb8e9705ba599758ae5f921267910b64cfe4c6bfe69cd5ae20d4d5c595",
+      "bytes": 2092,
+      "gitBlob": "c44a1c924f7848d65cb9deb1c81e45933eb8c67a"
+    },
+    {
+      "path": "docs/research/casimir-dp-neutral-range-scan-2026-09-07.py",
+      "sha256": "78733c139c1af1c367796e7751fb5c0d0c0a61ab117446ba937eed45fa78cb7b",
+      "bytes": 1749,
+      "gitBlob": "739a81853e84df3acd58725e201643f9504b3c34"
+    },
+    {
+      "path": "docs/research/casimir-dp-neutral-sphere-envelope-2026-09-07.py",
+      "sha256": "55e7e6da7c808c2f9cbddbd964a0da12f14d8b03d7c647609c8daf7c649a863a",
+      "bytes": 2431,
+      "gitBlob": "0cb3848d0505902763f737bee48a857fd898716a"
+    },
+    {
+      "path": "docs/research/casimir-dp-neutral-virtual-finite-gap-2026-09-07.py",
+      "sha256": "15e54f65c35a555c1e58ef172c0d51a8de89b35b13d06c269abb05bf52f6fdf5",
+      "bytes": 1130,
+      "gitBlob": "7940c532195c0676fba5d80d0c4b0078586630b3"
+    },
+    {
+      "path": "docs/research/casimir-dp-neutral-virtual-finite-q-2026-09-07.py",
+      "sha256": "cb898e04232d332d2dd203c6064d4e4486c781fccf7c8cb862d0aed2c186c7b9",
+      "bytes": 1176,
+      "gitBlob": "41fa31e3503c474f26f4eede2ac0d86403a3b947"
+    },
+    {
+      "path": "docs/research/casimir-dp-neutral-virtual-pair-2026-09-07.py",
+      "sha256": "fd281686629dcd752c6c284dbe5104ba2f97bdfeb06d6b9bcae91fbc73f1cb09",
+      "bytes": 1252,
+      "gitBlob": "04cac700d9106c4c54f93ed6f7befe278ae59a47"
+    },
+    {
+      "path": "docs/research/casimir-dp-neutral-virtual-shell-tail-2026-09-07.py",
+      "sha256": "f8940b73d3603fadc2aec15f6d2681ed73c0a946b80b14c009d5b3f820af1043",
+      "bytes": 1718,
+      "gitBlob": "3ff33e06647db6020d47746ec80be12ca1dc6ac2"
+    },
+    {
+      "path": "docs/research/casimir-dp-neutral-virtual-toy-2026-09-07.py",
+      "sha256": "10fabdb3691bb9a2a03bcfb03a09ae14826298d229acf0a39246e318b310d167",
+      "bytes": 1276,
+      "gitBlob": "8075f5e0b6cad9416fa82fed1f259a1a0cdb7b54"
+    },
+    {
+      "path": "docs/research/casimir-dp-neutrino-coupling-survival-2026-09-07.py",
+      "sha256": "f78acff6364c39f57cd946fc0882ce8bfc4b137465e38f4b9862de8142cc45bc",
+      "bytes": 4131,
+      "gitBlob": "5d19d1b005e65336a5c620459eee10498a55b7cc"
+    },
+    {
+      "path": "docs/research/casimir-dp-neutrino-dipion-slice-2026-09-07.py",
+      "sha256": "4a4709332a53e58ded508f61f04a75d31c32662d4ecbbdb3bbdb2fb123a47484",
+      "bytes": 1989,
+      "gitBlob": "7fdfd8f991904f1ca9ef5b20ba1f4e4a57f96897"
+    },
+    {
+      "path": "docs/research/casimir-dp-neutrino-dispersive-intake-2026-09-07.py",
+      "sha256": "e71265e6d0e2e36e3c586f6c83917e230c6eb264e9a3ce0f306a44fed64ce147",
+      "bytes": 4640,
+      "gitBlob": "eaa7b77d19b0357c89b2613dcabc3e40f26d12ba"
+    },
+    {
+      "path": "docs/research/casimir-dp-neutrino-dispersive-intake-2026-09-07/classes.py",
+      "sha256": "9adf77c1b3b366daeba0c837532a684351f8a18006bcddc49445d36f248a7c7a",
+      "bytes": 16559,
+      "gitBlob": "d512fc91ff652be346ea2545a8a1c834289b3cf8"
+    },
+    {
+      "path": "docs/research/casimir-dp-neutrino-flux-intake-2026-09-07.py",
+      "sha256": "d1d3554e6742f92715169c0e2ed55bb1971445ff3b0ded22e8e1386209614f5a",
+      "bytes": 2925,
+      "gitBlob": "386053e04a1852f6cb10d796b257fdc8c498c987"
+    },
+    {
+      "path": "docs/research/casimir-dp-neutrino-flux-survival-2026-09-07.py",
+      "sha256": "c78a708ca9c36287b96c31108bb5b7c159a3bb846dcc69c2dd6fdda3fe650e19",
+      "bytes": 4246,
+      "gitBlob": "432fdbf8112fdd05edc6e6501eb507be6184adaa"
+    },
+    {
+      "path": "docs/research/casimir-dp-neutrino-flux-update-2026-09-07.py",
+      "sha256": "81dcc797c4311e7fc5ead94ad0a7476c3480ed1df8875fa7b35a88b86e8fd901",
+      "bytes": 2733,
+      "gitBlob": "a43f3abad8d9b44d7019f096ce0a28bfa994fafd"
+    },
+    {
+      "path": "docs/research/casimir-dp-neutrino-formfactor-survival-2026-09-07.py",
+      "sha256": "006ba9fdfb41f953acda3bb23562cc22577808e9c75c469caf354ca8ae32cbc8",
+      "bytes": 2578,
+      "gitBlob": "0aecd2832ad32e1dc8c2d6f67293a8065df8f88d"
+    },
+    {
+      "path": "docs/research/casimir-dp-neutrino-highflux-intake-2026-09-07.py",
+      "sha256": "025b5bfb740bf495738e5c15b71ad1f6df46d79b1bfe9974ccb86d616dc0b5f8",
+      "bytes": 4189,
+      "gitBlob": "4450dd1282bf89bfb6dbac8d60b2ec6c48e0b64a"
+    },
+    {
+      "path": "docs/research/casimir-dp-neutrino-highflux-intake-2026-09-07/test_fluxes.py",
+      "sha256": "f2197ca2fe9a851abb3f324ec4db3c74e25ce1a042d5dc6670617451192cae23",
+      "bytes": 2786,
+      "gitBlob": "49672d681a511e61450bf9708c0f668f86c579d9"
+    },
+    {
+      "path": "docs/research/casimir-dp-neutrino-highflux-survival-2026-09-07.py",
+      "sha256": "d8bc97433ba2f9c3e00b42516ba94f143c49ed817f83add86f385fb4f296f4e6",
+      "bytes": 3704,
+      "gitBlob": "dd98ee0a008908ade146d10001343db2b5aa515a"
+    },
+    {
+      "path": "docs/research/casimir-dp-neutrino-joint-2026-09-07.py",
+      "sha256": "6aba082f04ff4f616161e109df1c642e087656fc61ded72a3f9768d4ef5ecdf3",
+      "bytes": 4268,
+      "gitBlob": "a89f27bdd8644c6fea271f49e88ec98ecf4a9a17"
+    },
+    {
+      "path": "docs/research/casimir-dp-neutrino-shape-screen-2026-09-07.py",
+      "sha256": "12287d261126bb5204c31b60f047f42e61c7eb23114f46b949e5511bc19449ab",
+      "bytes": 2305,
+      "gitBlob": "15bb7b593a4f8b6b24f578b6381cf2f25f3c431e"
+    },
+    {
+      "path": "docs/research/casimir-dp-neutrino-two-body-survival-2026-09-07.py",
+      "sha256": "aacbf365c82498a8b18ca6bd9864683b030f97c75d7d0c6b1e1cdf4d0543ce41",
+      "bytes": 2686,
+      "gitBlob": "5e49c9a7164ee9bb6bfb2bf4057852f1a1b10e2f"
+    },
+    {
+      "path": "docs/research/casimir-dp-neutrino-upscatter-intake-2026-09-07.py",
+      "sha256": "1bfe5a02d73a866862f4aa70cd7d9068b8093859877e0dcd0f0cb551492d21f5",
+      "bytes": 1979,
+      "gitBlob": "4eddefa9d1f992fdddf9228ce7679da487fea627"
+    },
+    {
+      "path": "docs/research/casimir-dp-one-soft-scatter-2026-09-07.py",
+      "sha256": "69d77b3c69f8ba7cc2393524fff67966c4ec1fb6cf485d7400f8ce819cd83baa",
+      "bytes": 2548,
+      "gitBlob": "306879656ebeddf5795e8dc5fefc2942608b453a"
+    },
+    {
+      "path": "docs/research/casimir-dp-phase-independent-check-2026-09-07.py",
+      "sha256": "d2576b1996c38b718b56d0d739f83a7087c06fe203274965bacc171548d4e4b6",
+      "bytes": 2353,
+      "gitBlob": "9837382e2020ee4813ebb4f228c50a39df9b9dd5"
+    },
+    {
+      "path": "docs/research/casimir-dp-photon-charge-tail-2026-09-06.py",
+      "sha256": "50587429875f189c69f249728c55d3c1a2fb8fc702af5e397ef8d4812c1cbdaa",
+      "bytes": 4042,
+      "gitBlob": "dcca5686adf8b053670cd5b83f6cd04fb2785ce9"
+    },
+    {
+      "path": "docs/research/casimir-dp-photon-lz-count-screen-2026-09-06.py",
+      "sha256": "ad86ec5cb239dcdb36e4c487fa4424c440bca35ccb06780d829b4230a07a7171",
+      "bytes": 2672,
+      "gitBlob": "f6ed02a34467c56a06a1003a2c3cd845714eabe7"
+    },
+    {
+      "path": "docs/research/casimir-dp-photon-neutral-screen-2026-09-06.py",
+      "sha256": "18f17b407986b64a3a3a0e379db391d7b15ab4f254de7118b19aa7dec5f1e079",
+      "bytes": 2780,
+      "gitBlob": "b44e26a246fd32d646c437d5da8997c6224e2a49"
+    },
+    {
+      "path": "docs/research/casimir-dp-photon-nuclear-magnetic-2026-09-06.py",
+      "sha256": "f10f5e53d2967e64f0021734ba2689e9586f3aa6ab3e83717629d19a8018ab13",
+      "bytes": 4411,
+      "gitBlob": "26ed7872c7fca1cce8dc268c2356e8a7ee161c43"
+    },
+    {
+      "path": "docs/research/casimir-dp-photon-shared-halo-2026-09-06.py",
+      "sha256": "23a3cdfd24c5dfe608558285176c9829ec1d0af66b70d451f676d8470cba2542",
+      "bytes": 6296,
+      "gitBlob": "19f998e89c0751a2c398f3dbe5646a259cdad830"
+    },
+    {
+      "path": "docs/research/casimir-dp-png-boson-star-mediator-compatibility-2026-09-25.py",
+      "sha256": "f628bf5a0fa91b4a828ab60524f961889c30efc34368161867b718b07b9e3714",
+      "bytes": 6313,
+      "gitBlob": "4b7ae7aa577e7d565c537e8c47898a51dc619d07"
+    },
+    {
+      "path": "docs/research/casimir-dp-portal-center-transport-2026-09-07.py",
+      "sha256": "4bac4528ca3ba2a3e2c9061cafba8d7b27c06d8eed5c5b3c1f81af0d556767d6",
+      "bytes": 3230,
+      "gitBlob": "c8d6b629f8d0802f90afbf22b3d5036c9bf25cc0"
+    },
+    {
+      "path": "docs/research/casimir-dp-portal-chamber-dipole-2026-09-06.py",
+      "sha256": "5f086113d861978f9202224bebc5f68e16797b468667242b3a0d1b3210487859",
+      "bytes": 3622,
+      "gitBlob": "99a046f553d31166ed7c55cc49d90028fc749f75"
+    },
+    {
+      "path": "docs/research/casimir-dp-portal-chamber-green-2026-09-06.py",
+      "sha256": "425868c79f9e620b7378f2e438f21e3ca03beeab6757bff4a714d23f671f2dbe",
+      "bytes": 3667,
+      "gitBlob": "c1ddd7c362ee4967e9642ac1c37773c198221bcd"
+    },
+    {
+      "path": "docs/research/casimir-dp-portal-classical-force-2026-09-06.py",
+      "sha256": "99e0dbaf93f2c83ae8eb9de59f69f1d363f4c4a86eeacf0240e57edc52a5e063",
+      "bytes": 3248,
+      "gitBlob": "09c5457cb6e664687c5be4fc5f4a1f08dff6719e"
+    },
+    {
+      "path": "docs/research/casimir-dp-portal-common-halo-2026-09-07.py",
+      "sha256": "0f897c2a4e52eda829027600f0082eec814c86def4dc3485a8f88d36f3d13be7",
+      "bytes": 4222,
+      "gitBlob": "58f5b57587aafede6667069af22e68526e4a2fe9"
+    },
+    {
+      "path": "docs/research/casimir-dp-portal-contact-spectrum-2026-09-06.py",
+      "sha256": "1160a7069a25c0d4bd02938c6f11002f9cd449cc6215a50a8d567b35bac6762d",
+      "bytes": 4298,
+      "gitBlob": "07b7adda44a547341c641d25bfea9d173456838c"
+    },
+    {
+      "path": "docs/research/casimir-dp-portal-finite-plate-screen-2026-09-06.py",
+      "sha256": "68413f75e1137182a97eb6a1062f0bb7b96b2a9568e4175e0006766f8a3e00e5",
+      "bytes": 2978,
+      "gitBlob": "21326c0c0d80985e43c9f01914ad9976f7b9818f"
+    },
+    {
+      "path": "docs/research/casimir-dp-portal-finite-sphere-force-envelope-2026-09-06.py",
+      "sha256": "6028fcaf17eb403048f574a50764ffe49f04bfd1ba26862929926e74d2a1d0b2",
+      "bytes": 3411,
+      "gitBlob": "d8790e7d3ef4c0043f12a711f813b102c6cbd9fe"
+    },
+    {
+      "path": "docs/research/casimir-dp-portal-force-tradeoff-2026-09-06.py",
+      "sha256": "4ef4120551cf9fe91b30cc61ea029d7e1ad45118f491867c616c692341fd0ce5",
+      "bytes": 3140,
+      "gitBlob": "cf6a3804e3a7b6092b18726ec17b499f4aefa97c"
+    },
+    {
+      "path": "docs/research/casimir-dp-portal-heavy-column-2026-09-07.py",
+      "sha256": "aca2dd84b7fa9cd4799eecfb7339b28792f82587dc08981b79d71d1b6fb24d6f",
+      "bytes": 2183,
+      "gitBlob": "3883206816736c5737551e5f70e88e09478d0a1f"
+    },
+    {
+      "path": "docs/research/casimir-dp-portal-higgs-decay-screen-2026-09-06.py",
+      "sha256": "cdd3cc61669321a09fa7e77d2659b26a2eded0c9e2a7cc8f58e588a1d220d65a",
+      "bytes": 2647,
+      "gitBlob": "96d7dbcd2a5c4ee16eecdcf9da97d8013a634d50"
+    },
+    {
+      "path": "docs/research/casimir-dp-portal-joint-force-loop-2026-09-07.py",
+      "sha256": "8ab73f9ad25cb95d6ae1830d5ec4260a43564c0e0ce3ae1c08250dbbec05fae7",
+      "bytes": 3053,
+      "gitBlob": "0ecb5b6636bdf5662eb6ae5b7ceb5fdadd576504"
+    },
+    {
+      "path": "docs/research/casimir-dp-portal-local-contact-2026-09-06.py",
+      "sha256": "0c7f8c29eb475d54f94b9a45ebb43178695563a6bf54ca24cccfb55ba66bd605",
+      "bytes": 4379,
+      "gitBlob": "4946e90f9aef78e424eeb7ba07ebf842d62dbab6"
+    },
+    {
+      "path": "docs/research/casimir-dp-portal-matched-density-2026-09-06.py",
+      "sha256": "c0586e783280060c915c04da68e315f8b55e8dc863e904e2645deff92b507230",
+      "bytes": 3172,
+      "gitBlob": "0d11605aa8acaff6f3e5b81c7a4669943b881ba2"
+    },
+    {
+      "path": "docs/research/casimir-dp-portal-pair-loop-drift-2026-09-07.py",
+      "sha256": "968c8ec0c68310a144391a7e4e44d5e780e06f9d9f89ed266a39b3821def5af5",
+      "bytes": 2437,
+      "gitBlob": "648b35bff03534df584d78f7faf021c2a4a4248a"
+    },
+    {
+      "path": "docs/research/casimir-dp-portal-phase-tail-2026-09-06.py",
+      "sha256": "a9898b043def8f48358650d07992b88cc60d8820f14a708c9403ca6a6c40a8ed",
+      "bytes": 4119,
+      "gitBlob": "e10f9b0e9416d4e6a7383ab33fa7c6a5a8bc5056"
+    },
+    {
+      "path": "docs/research/casimir-dp-portal-plate-force-invariant-2026-09-06.py",
+      "sha256": "6c5cabc6272c04ff4fb126822c0c40d12ffe5561f25a184b4d8d2076d2b4a1aa",
+      "bytes": 3529,
+      "gitBlob": "bc82bb1a85b56a66c19b871c94c5b2a9c6be7bd7"
+    },
+    {
+      "path": "docs/research/casimir-dp-portal-plate-force-tensor-2026-09-06.py",
+      "sha256": "a20503783e23056ddf097b4a8e1f19e9606ddda763c1ce1c38383ff0d896cc67",
+      "bytes": 2720,
+      "gitBlob": "b08e3bd7e3478b4857cf01f6893709a34db30486"
+    },
+    {
+      "path": "docs/research/casimir-dp-portal-spherical-chamber-2026-09-06.py",
+      "sha256": "2f2162bb64f5539b2b3aca99f75e6794ce20a8c86475161c3481cda11c12fb06",
+      "bytes": 3841,
+      "gitBlob": "6f0e51ec78fc247c6d2e41c318726b43bfbdec28"
+    },
+    {
+      "path": "docs/research/casimir-dp-primary-lead-refresh-2026-09-07.py",
+      "sha256": "2cd64104e98ddc1773c4dffb6a69aefc183078b714a23b16e39d7372624d5032",
+      "bytes": 1528,
+      "gitBlob": "ecd16d67a0c4fe11d087aa73ee43f8c25024a9ba"
+    },
+    {
+      "path": "docs/research/casimir-dp-radiative-offset-audit-2026-09-07.py",
+      "sha256": "ed978cc0137acb6143bf6bc1e3c7c5828d97599b5a79f5a645d3844b0cef3b9a",
+      "bytes": 1316,
+      "gitBlob": "a744b30f6c4780080d66206c95d14cfe599eead8"
+    },
+    {
+      "path": "docs/research/casimir-dp-real-vector-survival-2026-09-07.py",
+      "sha256": "dff145d5dbc72af8c824b175d78f55e392b7bde03fc2cac6935db1dd86ba805a",
+      "bytes": 2703,
+      "gitBlob": "16a05f22e55851895c1dcf0410b9c24ec0ab7f58"
+    },
+    {
+      "path": "docs/research/casimir-dp-relativistic-core-intake-2026-09-07.py",
+      "sha256": "af8d09533e2c3b6eb0fb24fa134c644fb4be44d836fe082a7c1175e82c016913",
+      "bytes": 2637,
+      "gitBlob": "615fec33a9845c3f352ff471afa3a02d5f0b0ff6"
+    },
+    {
+      "path": "docs/research/casimir-dp-replenishment-floor-2026-09-07.py",
+      "sha256": "c41600f68dc183dc0e325da61f98d712ae3b9d26eec6b73aa0b2b4d673491d97",
+      "bytes": 1964,
+      "gitBlob": "9a37e04f09ecf0a24d79fb880c06584267246811"
+    },
+    {
+      "path": "docs/research/casimir-dp-resonant-recycling-ceiling-2026-09-07.py",
+      "sha256": "797960ce355dc9d1952a403117eef99e8c83259549a975275ad59a10bed36566",
+      "bytes": 1845,
+      "gitBlob": "347e6fda499d85850bd9a96d982da9a4bb6d926a"
+    },
+    {
+      "path": "docs/research/casimir-dp-scalar-boundary-transfer-2026-09-07.py",
+      "sha256": "5ad1427c7c02e3f3f07e0968dc7990440a066dbd25af715618e66e0d95fba732",
+      "bytes": 920,
+      "gitBlob": "15c7b56a776d0afb608caba17237a02924e24104"
+    },
+    {
+      "path": "docs/research/casimir-dp-scalar-branch-decision-2026-09-07.py",
+      "sha256": "4d869f2f3120d5fe8597cc84b06ebd04245bccc26beaed7df342899cb74ec443",
+      "bytes": 2642,
+      "gitBlob": "4ebf6c202105221d3710b6833aad80eae2b14b55"
+    },
+    {
+      "path": "docs/research/casimir-dp-scalar-mixed-nuclei-dipole-2026-09-07.py",
+      "sha256": "db55931657197e5be90b3485e4966a9ad1970d62bff5a2d27f7287bd30c74493",
+      "bytes": 1929,
+      "gitBlob": "d8bd4e1a466698bf46341346489f48a616f2627d"
+    },
+    {
+      "path": "docs/research/casimir-dp-scalar-portal-matching-2026-09-06.py",
+      "sha256": "3cd3a6ef8a487f85033194452128fbe464334f00c6fd21a2e632420c3fa933f3",
+      "bytes": 2730,
+      "gitBlob": "129c6e5056a7c3f01452f48ee9fb445f8d44a25e"
+    },
+    {
+      "path": "docs/research/casimir-dp-scalar-survival-xenon-2026-09-07.py",
+      "sha256": "c27e562b62ccf8ed784ef2fbdec2997c7ad6e6d12fb7d26133c701119049f911",
+      "bytes": 2679,
+      "gitBlob": "280349d39a91ec386ebc7eea1e8713ceef7b5d7d"
+    },
+    {
+      "path": "docs/research/casimir-dp-scalar-transition-lifetime-2026-09-07.py",
+      "sha256": "3497e88e00a9aa276494956f91a0424aae29c2f9c680825d47a3550bf1cbfa37",
+      "bytes": 1502,
+      "gitBlob": "ac21ec4617ca6231f36e265c1c9df21b81f7d1d7"
+    },
+    {
+      "path": "docs/research/casimir-dp-scalar-vector-cancellation-2026-09-07.py",
+      "sha256": "19e849f99aa7fb206a95e3b86c90ab8d84e3dad731bdd912c61045d2fa521a0a",
+      "bytes": 1460,
+      "gitBlob": "fea926802775c04e5d937bd96e9f52b6673644ef"
+    },
+    {
+      "path": "docs/research/casimir-dp-scalar-vector-composite-2026-09-07.py",
+      "sha256": "400fa6fd62f7880cc8e151c662763b1f527f2099fa91da8500b8ff6452ae8c45",
+      "bytes": 1204,
+      "gitBlob": "03844d1a592af4a5d6b825a636f3a47a08e9fef3"
+    },
+    {
+      "path": "docs/research/casimir-dp-scotogenic-boson-lz-multicomponent-audit-2026-09-25.py",
+      "sha256": "7dd019239ea2a1df4e15d4c305f1c00b33773e6a6f9cf9894227acecee404531",
+      "bytes": 8690,
+      "gitBlob": "a9ccd2e1cb48530b2a1d75b7e5b988761e04b7e1"
+    },
+    {
+      "path": "docs/research/casimir-dp-semivisible-lifetime-2026-09-07.py",
+      "sha256": "1146cf15a05dfac998ed5b51d544eea723ea461ab41913fc7382cfbe5e71036f",
+      "bytes": 2386,
+      "gitBlob": "0f0bb127b3b93962167c6f3ac0933c03f74e7246"
+    },
+    {
+      "path": "docs/research/casimir-dp-semivisible-mass-bound-2026-09-07.py",
+      "sha256": "6585b41b26df6f6d2cff9f7a2777d2129090ab27c1866933074285821f1c50a6",
+      "bytes": 1891,
+      "gitBlob": "6ac838294e448bd2344147c9351a385176745c04"
+    },
+    {
+      "path": "docs/research/casimir-dp-shared-ratio-review-2026-09-07.py",
+      "sha256": "029d77cc415ecc6abe035e80041aebb913eeaf6c6e7a69143d9fc334507d5d62",
+      "bytes": 2090,
+      "gitBlob": "6e394d582c5e5007e83b89c57add9866ba3182f9"
+    },
+    {
+      "path": "docs/research/casimir-dp-shared-yukawa-screen-2026-09-06.py",
+      "sha256": "8dbd1f7f6aa92119675d53f335e7186d880ddce9bca94cc5f489cc0277864df6",
+      "bytes": 6630,
+      "gitBlob": "07d0cf2b41424042f826681f0b0c265edb1d6a6b"
+    },
+    {
+      "path": "docs/research/casimir-dp-silica-attenuation-2026-09-07.py",
+      "sha256": "949c261f708d98dfadff26633c32c1ef828a8f5bbad91fa3ea6ed597a76ff2b0",
+      "bytes": 2158,
+      "gitBlob": "b64bf37fb8d72e0ff8ac864156ca5d833c947b14"
+    },
+    {
+      "path": "docs/research/casimir-dp-silica-elf-stopping-2026-09-07.py",
+      "sha256": "c1e58bfe6e120276cea124231a24ed8c0f94ab44bf8394e37812e74afa9bd162",
+      "bytes": 5173,
+      "gitBlob": "1ee0f019e8eb3141b9eeed05cb74ce78d381bdc4"
+    },
+    {
+      "path": "docs/research/casimir-dp-silica-remainder-budget-2026-09-07.py",
+      "sha256": "bc5d4daec01b4be28ad010d3e8eadac22a47216ba38785e39f5c61ccbbb03c79",
+      "bytes": 2758,
+      "gitBlob": "dbe5a55e07b47cd0444642bd7f622f904e822b21"
+    },
+    {
+      "path": "docs/research/casimir-dp-single-scatter-bound-2026-09-07.py",
+      "sha256": "769746564c6995f6a3455ffaed1645ef435433ba54d3b1f2a524c4e0d6d72fa7",
+      "bytes": 3409,
+      "gitBlob": "bd7300165e6e9439089dc6ece43b07ca530a31cc"
+    },
+    {
+      "path": "docs/research/casimir-dp-slab-transport-2026-09-07.py",
+      "sha256": "dcb25aeacd1d563858dfa057b5eb70185c1f92a79d49f00acb82a49bf7635113",
+      "bytes": 4790,
+      "gitBlob": "5c5740a95d0f774bf6d25893e4cfdfeb79e266a6"
+    },
+    {
+      "path": "docs/research/casimir-dp-slow-resonance-resolution-2026-09-07.py",
+      "sha256": "bb900049a687cc4d1b98ca4a8c260f6615fc1e5354a221114bdfb0d3dd4a778e",
+      "bytes": 1943,
+      "gitBlob": "8d10ea3f9ebf5cc11a14131b3349baa2f4aa6b87"
+    },
+    {
+      "path": "docs/research/casimir-dp-slow-xenon-opacity-2026-09-07.py",
+      "sha256": "6a8a73e52583756565490daf1f2938401f367a38f75228bfb1ba550465ca47d9",
+      "bytes": 2433,
+      "gitBlob": "a948d9d5b49d836f57fdd7000150db95fd7814f6"
+    },
+    {
+      "path": "docs/research/casimir-dp-spin-response-intake-2026-09-06.py",
+      "sha256": "cb439f097c17c4b66f64f900483ab4e9b30f1a2ac01f7f16d23e26f7650e7179",
+      "bytes": 3072,
+      "gitBlob": "3c1a296a498d6186c571d2554ca8b835e1b17f36"
+    },
+    {
+      "path": "docs/research/casimir-dp-state-change-soft-window-2026-09-07.py",
+      "sha256": "4c741b5568543af45e1655eb682820e0e33cc1ec3f303c1f50bb7a592975ddf2",
+      "bytes": 1047,
+      "gitBlob": "d7bde170e8d5d78a64effdb1350a9df9d35cafe5"
+    },
+    {
+      "path": "docs/research/casimir-dp-static-stopping-sensitivity-2026-09-07.py",
+      "sha256": "1a76fc69da12943afdb906b36527a7bb086779b48a71c26f6e745b0808f7688a",
+      "bytes": 2894,
+      "gitBlob": "6499c4c1115de350b3acc0446833097edf46c8c6"
+    },
+    {
+      "path": "docs/research/casimir-dp-strong-invisible-escape-2026-09-07.py",
+      "sha256": "4a0d648dbdf12732eea885554a37aafc7b209ff06db92aa60d4d0490b46986af",
+      "bytes": 2502,
+      "gitBlob": "0ea8b17ed6d21002b4c13b6f47889e7de666fa8e"
+    },
+    {
+      "path": "docs/research/casimir-dp-strong-transport-visible-screen-2026-09-07.py",
+      "sha256": "767a400942b6596b461bf85fde3c897ba2971f9deab825ccc3a19dac65f25380",
+      "bytes": 2733,
+      "gitBlob": "01afe225bee2282dc51e0f681058cee591a17ad1"
+    },
+    {
+      "path": "docs/research/casimir-dp-symmetron-density-screen-2026-09-06.py",
+      "sha256": "8b5fbd12691dc372c0869f60cbbf38e089d77d3dd532b1c5b7b2691dd4cf406f",
+      "bytes": 2525,
+      "gitBlob": "4bfbd6c624e0639ab9c22fa9237c4cd0a6be7316"
+    },
+    {
+      "path": "docs/research/casimir-dp-symmetron-planar-intake-2026-09-06.py",
+      "sha256": "2414758b5c3d1d745bc8600cd3485e78dddd424eaa9569f27185ea713559b5cf",
+      "bytes": 2053,
+      "gitBlob": "451c0d25aaf6f3d1533cfd8fec3d79cb4529242a"
+    },
+    {
+      "path": "docs/research/casimir-dp-thermal-two-step-kinematics-2026-09-07.py",
+      "sha256": "4e530b4c4dde421c05a1d1d737e543d498e4051d6d043f493ece6c1a1149af41",
+      "bytes": 1072,
+      "gitBlob": "d870ea797c3938a156a23e4d9e0397071bd334a4"
+    },
+    {
+      "path": "docs/research/casimir-dp-thermal-vector-recycling-2026-09-07.py",
+      "sha256": "2ee5177562867fcc02732743dfa9f7dbbb55485d5c34ee671449500621f35905",
+      "bytes": 2062,
+      "gitBlob": "73a9094d7f0474eff93d35a6cdd370403fced2da"
+    },
+    {
+      "path": "docs/research/casimir-dp-threshold-xenon-kernel-2026-09-07.py",
+      "sha256": "e88facbe1d2df8d24157faf3db721081484242ce059532ca84325b3895e2dd45",
+      "bytes": 1066,
+      "gitBlob": "66d3678f54f6b380ecc2f4b430db9713c7ce116c"
+    },
+    {
+      "path": "docs/research/casimir-dp-transport-coupling-scan-2026-09-07.py",
+      "sha256": "bcfd585110851a2ef4a358ac835a203708b43aea6ef63cc1273d6152888f2410",
+      "bytes": 2169,
+      "gitBlob": "b15c1bb793eebbeaca672bb9e284473ad2e1f904"
+    },
+    {
+      "path": "docs/research/casimir-dp-two-mediator-common-2026-09-07.py",
+      "sha256": "e5a026b5923c1f7aebfa99560b7b9fddff5488bda607e4bdc39b47ee2aaf0e67",
+      "bytes": 3613,
+      "gitBlob": "95e5e85bb36fd8ee9087a26d910fb1f9fac3072f"
+    },
+    {
+      "path": "docs/research/casimir-dp-two-mediator-fast-partial-2026-09-07.py",
+      "sha256": "27a397f2509ad6889a33c40951f86cb282b33e61cf1131d7cd1db68d1b0ff780",
+      "bytes": 1666,
+      "gitBlob": "234b76baf9509b307bafb67f3594ff1128830340"
+    },
+    {
+      "path": "docs/research/casimir-dp-two-mediator-observables-2026-09-07.py",
+      "sha256": "44f09c11721af735342fd2cbe34dabfa97c1055450e5c67e09ed9da7f093ed83",
+      "bytes": 1804,
+      "gitBlob": "7c5d5502c450b40257c8825363f5ac25153bad44"
+    },
+    {
+      "path": "docs/research/casimir-dp-two-mediator-shape-2026-09-07.py",
+      "sha256": "66fe4a506d94d6ec3f6a0868d4a5a6bafc67c5f962ebfc4879b84d2a95110ee9",
+      "bytes": 2473,
+      "gitBlob": "c057199beab5412695a7baa9467c381b391aa6f6"
+    },
+    {
+      "path": "docs/research/casimir-dp-two-mediator-stopping-2026-09-07.py",
+      "sha256": "5931e7e55ca3cf66df4719036ae3213652c67530a216e34a96b4c3a52e893d61",
+      "bytes": 2976,
+      "gitBlob": "b0bee4e3975a8e3ff242451cc3832773b1306188"
+    },
+    {
+      "path": "docs/research/casimir-dp-ultralight-charge-kick-screen-2026-09-25.py",
+      "sha256": "b9cda2fe681228862e80e3ea5186af5aa92491a31f18a873f13d853776c14ad7",
+      "bytes": 5609,
+      "gitBlob": "391aa05976c1ec91598e94781a6c9825c406972e"
+    },
+    {
+      "path": "docs/research/casimir-dp-ultralight-charge-population-budget-2026-09-25.py",
+      "sha256": "b03f49208eb8c650289c54a266fb72fca35d61238b59f4aed69a6558788cee14",
+      "bytes": 9700,
+      "gitBlob": "368d70b5dc9248284e275d17688a60977cf5a9ec"
+    },
+    {
+      "path": "docs/research/casimir-dp-ultralight-charge-pulse-evolution-2026-09-25.py",
+      "sha256": "3233442221fc950f8b7ab579ec0ac3a6a4c8cdc1d05500f4d47fbd8d2b53ce3c",
+      "bytes": 10831,
+      "gitBlob": "8adc58729d4015bcabefa47d4ef8ce84ccb2f3a9"
+    },
+    {
+      "path": "docs/research/casimir-dp-ultralight-charged-misalignment-screen-2026-09-25.py",
+      "sha256": "05a4412376feb176ccd9c2df94cc94ddb347969fbe4de13686bf947103cdb029",
+      "bytes": 6630,
+      "gitBlob": "9c4a52726b59463259e340420f5d32e6f98fd57e"
+    },
+    {
+      "path": "docs/research/casimir-dp-ultralight-charged-pulse-isocurvature-screen-2026-09-25.py",
+      "sha256": "540c49fac0a8bc050dac77fbd4c4ff13afadf7b5806b9eab4035904d9c63f633",
+      "bytes": 8433,
+      "gitBlob": "084d2c2604e89fa51fe9d6bf2dea25325ed5f39e"
+    },
+    {
+      "path": "docs/research/casimir-dp-ultralight-condensate-abundance-screen-2026-09-24.py",
+      "sha256": "4df3a2c4874351d0a026ad410e2bdd208de17949d6760056512b7fe82d45de5b",
+      "bytes": 3136,
+      "gitBlob": "c55f44d0bbe413407a182cbfef7089084d7bf17b"
+    },
+    {
+      "path": "docs/research/casimir-dp-ultralight-dynamical-source-isocurvature-2026-09-25.py",
+      "sha256": "b4cb367938c6febdecc17aff8e260cefd0f8baf080edb5dfbaf8a27b56177664",
+      "bytes": 6582,
+      "gitBlob": "a95bf8deaa0dd3a4a072d8e4494dcc8558766750"
+    },
+    {
+      "path": "docs/research/casimir-dp-ultralight-dynamical-source-multicomponent-screen-2026-09-25.py",
+      "sha256": "45e8b66a01a991bc320e4bc4cdf50c9b3d2fab743beb17e5795fa571789f4c28",
+      "bytes": 14064,
+      "gitBlob": "0ea35d0225ae4c9c53c658a54b2dbeb7be6bd35d"
+    },
+    {
+      "path": "docs/research/casimir-dp-ultralight-misalignment-abundance-screen-2026-09-25.py",
+      "sha256": "6babf2fd8d6c03d202d4153164bcbc2dd1872f63c6fb9b7723dbbd92f8462df2",
+      "bytes": 6711,
+      "gitBlob": "0043a597f06e5c4067917c8ee6fead946c2fca09"
+    },
+    {
+      "path": "docs/research/casimir-dp-ultralight-misalignment-isocurvature-screen-2026-09-25.py",
+      "sha256": "90b65067a928522c61376f69e89a101c60a63595cacaa0f045c9e0733bfd2efa",
+      "bytes": 7199,
+      "gitBlob": "099ce69ca469ade6b22e0630329eeb95a9cace2e"
+    },
+    {
+      "path": "docs/research/casimir-dp-ultralight-nonlinear-sigma-charged-screen-2026-09-25.py",
+      "sha256": "0259240907cf32e61650740ad9e7243f39b0b82fa87713a3eac5b26273a480be",
+      "bytes": 6602,
+      "gitBlob": "87a16416367ca8d3f61f65971e3b58f02fb035e9"
+    },
+    {
+      "path": "docs/research/casimir-dp-ultralight-pngb-finite-temperature-misalignment-2026-09-25.py",
+      "sha256": "9c415205ea40d6ccb46acae170b52dda862688461567a8f465609b7129d77447",
+      "bytes": 10787,
+      "gitBlob": "0b263637948b78a88db07cdfd1597347ee4ef5e9"
+    },
+    {
+      "path": "docs/research/casimir-dp-universal-scalar-selection-2026-09-07.py",
+      "sha256": "779c1cd420ac574d2e55cdb475f066b4ff8f8b746df332b88ea778581557a5f1",
+      "bytes": 1267,
+      "gitBlob": "9ea38a494cd7f7960008bfb3730496262f7c7a29"
+    },
+    {
+      "path": "docs/research/casimir-dp-veto-flight-times-2026-09-07.py",
+      "sha256": "8d4e2b9a352c1657e2a8e953d291292dd8485f036975393a479e2e2c61b8c582",
+      "bytes": 1399,
+      "gitBlob": "4006b07e32b23fb604d1f2d072f7d662ed37d2d7"
+    },
+    {
+      "path": "docs/research/casimir-dp-virtual-300-nuclear-reach-2026-09-07.py",
+      "sha256": "f3cc8a4f2d1305b6b36c2fdb225cba84e4bd7cd08c76934efd79563e3fa6488e",
+      "bytes": 2459,
+      "gitBlob": "bb7f6c7d5716bc9c2b2a5ba0e54556c245ea06b9"
+    },
+    {
+      "path": "docs/research/casimir-dp-virtual-300mev-candidate-2026-09-07.py",
+      "sha256": "e56894c0c36e2c3ac29cb390ca7ab0938451699c86c9de0da8aa654b16ea5d68",
+      "bytes": 1697,
+      "gitBlob": "8af983f7f94c9a819ce1d85a2903e034612981a0"
+    },
+    {
+      "path": "docs/research/casimir-dp-virtual-carbon-impulse-2026-09-07.py",
+      "sha256": "84a5569012a5fe9ee20c807ba04809405cf00222669f4b79af7fcbbab0a0b0d2",
+      "bytes": 1891,
+      "gitBlob": "c3aa4c93c9a0b1a7cfe33324c15d40bf4ed9366c"
+    },
+    {
+      "path": "docs/research/casimir-dp-virtual-efficiency-envelope-2026-09-07.py",
+      "sha256": "687bc757ffe3b23c77955c4157e8f49cc75c7a687a8e8858436728c1225e85c6",
+      "bytes": 1336,
+      "gitBlob": "f95409a27a63fd73eea4c89dbb2893af6c05992e"
+    },
+    {
+      "path": "docs/research/casimir-dp-virtual-electron-resolvent-2026-09-07.py",
+      "sha256": "3d7541d65a8839dbdc713a57d28b09a7dc7009842fa99d9c272115f055aa61be",
+      "bytes": 2126,
+      "gitBlob": "9a4a3127f947f7404bf0cc86996d04b8c17dfd11"
+    },
+    {
+      "path": "docs/research/casimir-dp-virtual-gauge-completion-2026-09-07.py",
+      "sha256": "4e8261f76799c630c36645b52b5229b155f04a3974d32aa5c3984750e2a486ce",
+      "bytes": 1159,
+      "gitBlob": "f3d3d65b0fcce3901b9c16c30492779d42ad125f"
+    },
+    {
+      "path": "docs/research/casimir-dp-virtual-leading-density-2026-09-07.py",
+      "sha256": "9b7ea24a1c54b9059d920876ba9ee4e58ff1e6bf8b1111b34e4c5191e2447fbe",
+      "bytes": 1363,
+      "gitBlob": "a6732462358dac94777cac8e395d1bdfc26126a0"
+    },
+    {
+      "path": "docs/research/casimir-dp-virtual-mass-scan-2026-09-07.py",
+      "sha256": "492f275d3f0115ab4fdd27510d0353de02bc8fa51c90276f51814e03a75e7343",
+      "bytes": 2111,
+      "gitBlob": "4eb613e7e3928d2b92cd1f2b36370c64773b6c85"
+    },
+    {
+      "path": "docs/research/casimir-dp-virtual-nuclear-match-2026-09-07.py",
+      "sha256": "7bdea97662794b5c5eed6c562b19b6c5d9e3532423a15cdbc1c6cc90d171fca9",
+      "bytes": 2361,
+      "gitBlob": "ee4faf72f338e5fcb16add888b17ca83fd0ee551"
+    },
+    {
+      "path": "docs/research/casimir-dp-virtual-self-s-wave-2026-09-07.py",
+      "sha256": "535d61cf45cde3c141c11a37b9fe083e9ff7dfe8d678244ba0c92751abde6246",
+      "bytes": 1625,
+      "gitBlob": "5b3ce6ee27766001aa8f1e9ec3d79d616c164f25"
+    },
+    {
+      "path": "docs/research/casimir-dp-virtual-self-zero-energy-2026-09-07.py",
+      "sha256": "e09fffdc07f1ea026204a9670d8907000240011f61b5fe7cc32a3a3ae76377d2",
+      "bytes": 1538,
+      "gitBlob": "f722381171b0eb849803cf5ec256964c1e5489de"
+    },
+    {
+      "path": "docs/research/casimir-dp-virtual-smooth-sphere-2026-09-07.py",
+      "sha256": "3bdb74a3d26f7fa940b3124e6854d009d10889f299e97e3fa9f7c5a73c539448",
+      "bytes": 1660,
+      "gitBlob": "528a9f95ec1812a21b7c59cea845127b0cf8e09f"
+    },
+    {
+      "path": "docs/research/casimir-dp-virtual-spin-bubble-2026-09-07.py",
+      "sha256": "9066cfac04336fbed6bba9b464de95be50eb8d93eb31d3849e036c766ccb5389",
+      "bytes": 1922,
+      "gitBlob": "a459d3d75d6e276998b79011fd36ed9496d47d91"
+    },
+    {
+      "path": "docs/research/casimir-dp-virtual-visible-continuous-screen-2026-09-07.py",
+      "sha256": "3b99d969a3f3492ae70f9fb8544d58399c968a044a620a9758e10d843f614cf6",
+      "bytes": 2079,
+      "gitBlob": "793813dd90b95e6be97049c726d028fc946b1be8"
+    },
+    {
+      "path": "docs/research/casimir-dp-virtual-visible-lab-screen-2026-09-07.py",
+      "sha256": "d666bfe20db8f2460e91588b94aa63aa94433fea2bb5cc0d648ddd7e2b04f2b9",
+      "bytes": 1661,
+      "gitBlob": "25bb93888b5fac927ab8337dd34bb357f81ae3f4"
+    },
+    {
+      "path": "docs/research/casimir-dp-weighted-low-transport-2026-09-07.py",
+      "sha256": "a2c26280d36bc32fb393e4dee956d3a8a22c13cb55cd3b929797ef3db1c1818d",
+      "bytes": 2108,
+      "gitBlob": "aca3d12b95472d583a9f87214779c3ce3f680ac8"
+    },
+    {
+      "path": "docs/research/casimir-dp-weighted-low-xenon-2026-09-07.py",
+      "sha256": "ec58c578c42d1d194e564fe258fc6f892abb45ac345d45d5f20f46dac04d9c09",
+      "bytes": 3368,
+      "gitBlob": "aca3676e4ece9a74396e5b1ca9efbdcbaab97257"
+    },
+    {
+      "path": "docs/research/casimir-dp-weighted-slab-2026-09-07.py",
+      "sha256": "f76b4fb2ea33eeef0165adec20109014d99333c8dd6a43a2a55c3367cadade1d",
+      "bytes": 3259,
+      "gitBlob": "ed755389906308e838be1a17793f5d9153305733"
+    },
+    {
+      "path": "docs/research/casimir-dp-weighted-xenon-spectrum-2026-09-07.py",
+      "sha256": "0f0992dcdeeaa5fbe9096c29a2a523ce1df61f1f7d8f94a784e92a3ba138692d",
+      "bytes": 3592,
+      "gitBlob": "75cb2f72dc7b36ea5772dd1f5dee7b184a22dc40"
+    },
+    {
+      "path": "docs/research/casimir-dp-xe-recoil-plot-2026-09-06.py",
+      "sha256": "d131e494ab7dd7177699f00d062bc4f85f15d82554b6ebb523b20c9edf35ad55",
+      "bytes": 1652,
+      "gitBlob": "9e56b1f61d01d840d9d7dcbe0b3085033ca962c5"
+    },
+    {
+      "path": "docs/research/casimir-dp-xe-recoil-recast-2026-09-06.py",
+      "sha256": "31c159b239dfca069f35767ee9fc8d185a7ce85cb2b4407eb0cbcb0d36c32aa0",
+      "bytes": 7735,
+      "gitBlob": "139d979c8ae031706be6deefb5224b32df527c77"
+    },
+    {
+      "path": "docs/research/casimir-dp-xenon-electron-covered-2026-09-07.py",
+      "sha256": "215ab9c36fdcafb8ad603a5a5f939c0b563303e42755ff240cebefe97bf2b359",
+      "bytes": 2915,
+      "gitBlob": "9fdfb45df3957d1bf479ebd35a2f904483569687"
+    },
+    {
+      "path": "docs/research/casimir-dp-xenon-recoil-transport-2026-09-07.py",
+      "sha256": "6e1638c04be0ed0067f4c2f51671db0bfd58e28e0a6d0ab900620e00aa20c958",
+      "bytes": 4256,
+      "gitBlob": "996db6fa201aefad8bf324abe236943229ae7767"
+    },
+    {
+      "path": "docs/research/casimir-dp-xenon-response-intake-2026-09-07.py",
+      "sha256": "72b8de64d89a46ab97cdfddd9ad57ea56f9d733789675ed3b1490640ff5f3e02",
+      "bytes": 1902,
+      "gitBlob": "3e8e317db6f7dd2a410e03128db01bb1dc42dbc0"
+    },
+    {
+      "path": "docs/research/casimir-dp-xenon-response-rdf-replay-2026-09-06.py",
+      "sha256": "9228051a18a959a1390d085de942737108aff6914683042e57fe104402261668",
+      "bytes": 5249,
+      "gitBlob": "6955cf436b66e3309b5b12bf9bb93ad33a7bd355"
+    },
+    {
+      "path": "docs/research/casimir-dp-xenon-soft-loss-2026-09-07.py",
+      "sha256": "4ae936c97f104fd7e817345b8252860bf20ea494e669bc28848666bba8238c35",
+      "bytes": 1720,
+      "gitBlob": "c2ada071f6e9b96d1f1732c2d74536280a5dbebe"
+    },
+    {
+      "path": "docs/research/casimir-dp-xenon-threshold-audit-2026-09-07.py",
+      "sha256": "1352d58411179a263cda5e9f417396c802a93a25cbf3dfd29bc51ae27bf03158",
+      "bytes": 1312,
+      "gitBlob": "02fd44738d07fae01d0ce97b46b4d35dca8b2260"
+    },
+    {
+      "path": "docs/research/casimir-dp-xenon-timed-replay-2026-09-07.py",
+      "sha256": "7d9b6a118e3fbc88df3625607a5fb769c22686dcdde5def338333a44466dccfc",
+      "bytes": 2674,
+      "gitBlob": "d46a7098976dfb407d753b2a508d6d073187d012"
+    },
+    {
+      "path": "docs/research/casimir-dp-xenon1t-fold-2026-09-07.py",
+      "sha256": "69b9fae3a59d8150a575a97744bd7b01e013fcaa19f46f28c73f5650543a43f7",
+      "bytes": 3160,
+      "gitBlob": "aedf760dec60819bde24baf649681aa1dc79ca2d"
+    },
+    {
+      "path": "docs/research/casimir-dp-xenon1t-roi-check-2026-09-07.py",
+      "sha256": "409ecf3028e8c86857db04dfcdf556bb9adfd37bf951ae02d28dc9268c47478a",
+      "bytes": 2006,
+      "gitBlob": "c29e4f597f78207aa9ebb44df77a610a70f7bd9c"
+    },
+    {
+      "path": "docs/research/casimir-dp-yamashita-dark-photon-four-channel-audit-2026-09-25.py",
+      "sha256": "ffbb358cdf703e60f7421a8c1810690a6ed75cbe1c107516c2a6ca379010a73f",
+      "bytes": 5365,
+      "gitBlob": "d7150ccf046a13eab17bf89ea7e15d2d58e98b3b"
+    },
+    {
+      "path": "docs/research/casimir-dp-yamashita-ultralight-mediator-velocity-scaling-2026-09-25.py",
+      "sha256": "37fa3cd06486f29fec237d54ce7d3a4423e1c80186273ad9dbd206818ebb7e74",
+      "bytes": 8808,
+      "gitBlob": "7b6e9e93a0ad2e4dfdd558773b24feb8e0b3530e"
+    },
+    {
+      "path": "docs/research/casimir-dp-yamashita-yukawa-jeans-moment-maxwell-2026-09-25.py",
+      "sha256": "e6c9e8e8904e440be438e3b001ee23a9506e4e2d8e1c92242349fe324404b3a9",
+      "bytes": 8884,
+      "gitBlob": "f09d958bba933fc7583198e8e993b6c18687338b"
+    },
+    {
+      "path": "docs/research/casimir-dp-yamashita-yukawa-maxwell-average-2026-09-25.py",
+      "sha256": "3a066d935578a2b298a674b172fdcd3726cfa1c72369f407fddd7a60932624ff",
+      "bytes": 8791,
+      "gitBlob": "57a5f83b43097a76a0173a108fcba02fe95ea220"
+    },
+    {
+      "path": "docs/research/casimir-dp-yamashita-yukawa-pointwise-crosscheck-2026-09-25.py",
+      "sha256": "0a75c23271e8508a87a602bfec268d270043229c7f6fa0366dcbe4a29ef09e1c",
+      "bytes": 10275,
+      "gitBlob": "63577efcc7e28c5db0e9d15455ca534a62e2d39b"
+    },
+    {
+      "path": "docs/research/casimir-dp-yamashita-yukawa-speed-width-sensitivity-2026-09-25.py",
+      "sha256": "c3154cdda74b30e9d474a4135cb6ca4774ee8cff6078afcfeb0aa9983b9de57f",
+      "bytes": 8571,
+      "gitBlob": "9666b3ed9b51d342ae9519f9f47d6283e4c116b3"
+    },
+    {
+      "path": "docs/research/casimir-dp-yukawa-arrival-tail-2026-09-07.py",
+      "sha256": "2ae672732985f5bb24bffe786c2bd42ab93c324ab3690d85def115cb1821962c",
+      "bytes": 1914,
+      "gitBlob": "b47fac0799f483b4337a28b7398e25ddcba48218"
+    },
+    {
+      "path": "docs/research/casimir-dp-yukawa-eikonal-bound-2026-09-06.py",
+      "sha256": "c6ef2228cdbaf8627a0443cc58922a157595fde9454ed3bc3c568d21ee97be04",
+      "bytes": 4447,
+      "gitBlob": "f176de7bdc9938359c5f4744f40517657bd0f52b"
+    },
+    {
+      "path": "docs/research/casimir-dp-yukawa-force-screen-2026-09-06.py",
+      "sha256": "38377d7a83a596c8adb76d221eb3b2195e3ee892293cf78ab22d6068ad0a39ac",
+      "bytes": 2368,
+      "gitBlob": "a7284a559feb972ce5d999d7ed86005ba4fefbc1"
+    },
+    {
+      "path": "docs/research/casimir-dp-yukawa-full-phase-2026-09-06.py",
+      "sha256": "c2bcd84c063d2b61f8becb1d348865cb099b0cc1a7cb80bdc54d18b742632f12",
+      "bytes": 5348,
+      "gitBlob": "33347b69fccc357c35c51a4fd430de0a222a80c2"
+    },
+    {
+      "path": "docs/research/casimir-dp-yukawa-sign-audit-2026-09-07.py",
+      "sha256": "61bc3b06283671e23960f93d659225891004f3df2fab03c68175aabde1416820",
+      "bytes": 1903,
+      "gitBlob": "1e4bcb96b196eec5f3c8c94e3a08833ef054b23d"
+    },
+    {
+      "path": "docs/research/casimir-dp-yukawa-xenon-normalization-force-screen-2026-09-25.py",
+      "sha256": "c26a4eb0b37148767291edd82c74cac240eff5f98c244bb2bd7b0ac2457f5e1a",
+      "bytes": 4584,
+      "gitBlob": "1ae5434a5b6a1e94d68f9d0db645b666b7d6efa6"
+    }
+  ]
+}
