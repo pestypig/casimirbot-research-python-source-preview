@@ -1,6 +1,6 @@
 {
   "schema": "casimirbot.docs_research_first_party_candidate_359.v1",
-  "status": "private-technical-review-unlicensed",
+  "status": "reviewed-source-only-snapshot",
   "sourceCommit": "bcb274d4f290e0da92534c3b9db3871a79e2759b",
   "componentSelections": [
     {
@@ -14,7 +14,7 @@
       "sourceFiles": 14
     }
   ],
-  "selectionRule": "Union of 345 filtered research Python paths and 14 matrix-operator false-positive paths; excludes ten exact upstream QCDark2, WIMpy, and nuflux archives. This is a private technical candidate, not an authorship or MIT clearance.",
+  "selectionRule": "Union of 345 filtered research Python paths and 14 matrix-operator false-positive paths; excludes ten exact upstream QCDark2, WIMpy, and nuflux archives. The MIT license covers the selected first-party source only.",
   "sourceFiles": 359,
   "sourceBytes": 1191781,
   "files": [
